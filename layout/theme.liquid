@@ -1,0 +1,359 @@
+{% comment %} If you want use original css and js files please set production variable false {% endcomment %}
+{%- assign production = true -%}
+{%- assign admin_shopify = false -%}
+
+{%- if request.host contains 'myshopify.com' -%}
+	{%- assign is_admin_interface = true -%}
+	{%- assign admin_shopify = true -%}
+{%- else -%}
+	{%- assign is_admin_interface = false -%}
+{%- endif -%}
+
+{%- if template.name == 'cart' -%}
+	{%- assign is_admin_interface = true -%}
+{%- endif -%}
+
+{%- if production == false -%}
+	{%- assign is_admin_interface = true -%}
+{%- endif -%}
+
+<!doctype html>
+<html class="no-js" lang="{{ shop.locale }}">
+
+<head>
+<!--	<!-- Added by AVADA SEO Suite -->
+<!--	{% include 'avada-seo' %} -->
+	<!-- /Added by AVADA SEO Suite -->
+{% include 'booster-seo' %}  
+    {% include '__opt-js-jquery' %}
+  {% include '__opt-js-md' %}
+  {% include '__opt-js-functions' %}
+
+  <meta name="google-site-verification" content="Dv3ji1rXUaij8aNu40wVkHXiWae3KYewisjTvTZm-ao" />
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="{{ settings.color_button }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  {%- if settings.favicon -%}
+    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
+  {%- endif -%}
+
+  {%- include 'seo-title' -%}
+  {% comment %}<title>{{ seo_title }}</title>{% endcomment %}
+
+  {%- if page_description -%}
+  {% comment %}<meta name="description" content="{{ page_description | escape }}">{% endcomment %}
+  {%- endif -%}
+
+  {%- include 'social-meta-tags' -%}
+
+
+  
+        {%- if production == true -%}
+			{% include '__opt-css-theme' %}	 
+		{%- else -%}
+			{% include '__original-css-theme' %}
+		{%- endif -%}
+
+
+{%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}
+{%- assign time_now = 'now' | date: '%s' %}
+{%- assign yotpo_live_time = shop.metafields.yotpo.yotpo_live | date: '%s' %}
+{%- assign diffSeconds = time_now | minus: yotpo_live_time %}
+{%- if yotpo_offload_content == 'yes' and diffSeconds < 86400 -%}
+{{ 'yotpo-full-css.css' | asset_url | stylesheet_tag }}
+{%- endif -%}
+  
+
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+
+    window.theme = window.theme || {};
+    theme.strings = {
+      addToCart: {{ 'products.product.add_to_cart' | t | json }},
+      soldOut: {{ 'products.product.sold_out' | t | json }},
+      unavailable: {{ 'products.product.unavailable' | t | json }},
+      stockLabel: {{ 'products.product.stock_label' | t: count: '[count]' | json }},
+      cartSavings: {{ 'cart.general.savings_html' | t: savings: '[savings]' | json }},
+      cartEmpty: {{ 'cart.general.empty' | t | json }},
+      cartTermsConfirmation: {{ 'cart.general.terms_confirm' | t | json }}
+    };
+    theme.settings = {
+      cartType: {{ settings.cart_type | json }},
+      moneyFormat: {{ shop.money_format | json }},
+      quickView: {{ settings.quick_shop_enable }},
+      themeVersion: "3.4.1"
+    };
+  </script>
+
+  {%- if is_admin_interface -%}
+  {{ content_for_header }}	
+  {%- else -%}
+  {% include '__opt-js-content-for-header' %}
+  {{ js_content_for_header }}
+  {%- endif -%}
+  
+  
+
+  {% include 'oldIE-js' %}
+
+  
+
+  {% include 'defer-script' with 'vendor.js' %}
+
+  {% if settings.enable_currencies %}
+    <script src="/services/javascripts/currencies.js" defer="defer"></script>
+    {% include 'defer-script' with 'jquery.currencies.min.js' %}
+  {% endif %}
+
+  {% include 'defer-script' with 'theme.js' %}
+
+  {%- if template contains 'customers' -%}
+    {% include 'defer-shopify-script' with 'shopify_common.js' %}
+  {%- endif -%}
+  
+{{ 'bsub.js' | asset_url | script_tag }}
+{{ 'bsub.css' | asset_url | stylesheet_tag }}
+  
+  
+  <script>theme.jQuery = jQuery;</script>
+  
+</head>
+
+<body class="page_{{ page.handle }} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if settings.enable_currencies %} currencies-enabled{% endif %}" data-transitions="{{ settings.animate_page_transitions }}">
+	
+  
+  {% if settings.animate_page_transitions %}
+    <script type="text/javascript">window.setTimeout(function() { document.body.className += " loaded"; }, 25);</script>
+  {% endif %}
+
+  <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+  <div id="PageContainer" class="page-container">
+    <div class="transition-body">
+
+    {% section 'header' %}
+
+      <main class="main-content" id="MainContent">
+        {{ content_for_layout }}
+
+      </main>
+		{% section 'newsletter' %}
+      {% section 'footer' %}
+
+    </div>
+  </div>
+
+  {% section 'newsletter-popup' %}
+
+  {% if settings.cart_type == 'drawer' %}
+    {% include 'ajax-cart-template' %}
+  {% endif %}
+     
+  
+  {% comment %}
+  <script>
+    BOLD.common.eventEmitter.on("BOLD_RECURRING_ORDERS_widget_loaded",function(){
+      setTimeout(function(){
+        document.querySelector('.bold-ro__subscribe-radio-btn').click();
+        $(".add-to-cart.cartbutton").text("Subscribe");
+
+        div1 = $('.bold-ro__radio-div.bold-ro__one-time-div');
+        div2 = $('.bold-ro__radio-div.bold-ro__recurring-div');
+
+        tdiv1 = div1.clone();
+        tdiv2 = div2.clone();
+
+        if(!div2.is(':empty')){
+            div1.replaceWith(tdiv2);
+            div2.replaceWith(tdiv1);
+
+            tdiv1.addClass("replaced");
+        }
+
+        $(".bold-ro__radio-div.bold-ro__one-time-div span, .bold-ro__radio-div.bold-ro__one-time-div input").click(function(){
+          $(".add-to-cart.cartbutton").text("Add to cart");
+        });
+
+        $(".bold-ro__radio-div.bold-ro__recurring-div span, .bold-ro__radio-div.bold-ro__recurring-div input").click(function(){
+          $(".add-to-cart.cartbutton").text("Subscribe");
+        });
+
+      }, 250);
+
+    });
+  </script>
+  <script>
+    // Set Subscribe & Save as default selected
+    BOLD.common.eventEmitter.on("BOLD_RECURRING_ORDERS_widget_loaded",function(){
+      setTimeout(function(){
+        document.querySelector('.bold-ro__subscribe-radio-btn').click();
+        //BOLD: Reverse order of the one time and subscription divs
+        $(".bold-ro__one-time-div").insertAfter(".bold-ro__recurring-div");
+      }, 250);
+
+      //BOLD: Listen for click of the recurring orders widget
+      $(".ro_widget").click(function(){
+        //BOLD: Check to see if the recurring div is selected
+        if($(".bold-ro__recurring-div").hasClass("bold-ro__bold-active")){
+          //BOLD: If selected change text to subscribe in ATC button
+          $(".addtocart span").text("Subscribe");
+        }
+        else{
+          $(".addtocart span").text("BUY NOW");
+        }
+      })
+    });
+  </script>
+  {% endcomment %}
+
+  {% if settings.enable_currencies %}
+    <span
+      id="CurrencyData"
+      class="hide"
+      data-shop-currency="{{ shop.currency }}"
+      data-default-currency="{{ settings.default_currency | default: shop.currency }}"
+      data-format="{{ settings.currency_format | default: 'money_with_currency_format' }}"
+      data-money-format="{{ shop.money_format | strip_html }}"
+      data-money-currency-format="{{ shop.money_with_currency_format | strip_html }}">
+    </span>
+  {% endif %}
+
+  {% include 'qty-selector-template' %}
+  {% include 'video-modal' %}
+  {% include 'photoswipe-template' %}
+  
+    <script type="text/javascript">
+      document.addEventListener("StartOtherLoading", function(event) {
+      (function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/Gi3jXeXoIVPair6tEOMTOQutLzDAPJrFv0Eu460Z/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+   });
+  </script>
+  
+  {{ 'custom.js' | asset_url | script_tag }}
+{% comment %}
+  <script>
+    $(document).on('change', '.variant-input-wrap', function(){
+      if (BOLD && BOLD.recurring_orders && BOLD.recurring_orders.app && BOLD.recurring_orders.app.ee &&
+          typeof BOLD.recurring_orders.app.ee.emit === 'function'){
+        BOLD.recurring_orders.app.ee.emit('variant_changed');
+      }
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded',function(){
+      $(document).on('click','.quick-product__btn',function(){
+        setTimeout(function(){
+         BOLD.recurring_orders.app.reboot();
+        },750);
+      });
+    });
+  </script>{% endcomment %}
+
+<!-- Klaviyo Web Tracking -->
+  
+  <script type="text/javascript">
+    
+    var _learnq = _learnq || [];
+    {% if customer %}
+      _learnq.push(['identify', {
+        '$email' : {{ customer.email }},
+        '$first_name' : {{ customer.first_name }},
+        '$last_name' : {{ customer.last_name }}
+      }]);
+    {% endif %}
+    {% if template contains 'product' %}
+      var item = {
+        Name: {{ product.title|json }},
+        ProductID: {{ product.id|json }},
+        Categories: {{ product.collections|map:'title'|json }},
+        ImageURL: "https:{{ product.featured_image.src|img_url:'grande' }}",
+          URL: "{{ shop.secure_url }}{{ product.url }}",
+        Brand: {{ product.vendor|json }},
+        Price: {{ product.price|money|json }},
+        CompareAtPrice: {{ product.compare_at_price_max|money|json }}
+      };
+
+      _learnq.push(['track', 'Viewed Product', item]);
+      _learnq.push(['trackViewedItem', {
+        Title: item.Name,
+        ItemId: item.ProductID,
+        Categories: item.Categories,
+        ImageUrl: item.ImageURL,
+        Url: item.URL,
+        Metadata: {
+          Brand: item.Brand,
+          Price: item.Price,
+          CompareAtPrice: item.CompareAtPrice
+        }
+      }]);
+
+      // Klaviyo "Added to Cart" Event
+
+      //var _learnq = _learnq || [];
+      $(document).ajaxComplete(function(event,request, settings){
+        if(settings.url == "/cart/add.js"){
+          console.log('added')
+          jQuery.getJSON('/cart.js', function(cart) {
+            cart.total_price =  cart.total_price/100;
+            cart.$value = cart.total_price;
+            cart.total_discount =  cart.total_discount/100;
+            cart.original_total_price =  cart.original_total_price/100;
+            for (var cart_item in cart.items) {
+              cart.items[cart_item].original_price =  cart.items[cart_item].original_price/100;
+              cart.items[cart_item].discounted_price =  cart.items[cart_item].discounted_price/100;
+              cart.items[cart_item].line_price =  cart.items[cart_item].line_price/100;
+              cart.items[cart_item].price =  cart.items[cart_item].price/100;
+              cart.items[cart_item].original_line_price =  cart.items[cart_item].original_line_price/100;
+            }
+            if (typeof item !== 'undefined') {
+              $.extend( cart, item );
+            }
+            _learnq.push(['track', 'Added to Cart', cart]);
+            console.log('sent')
+          });
+        }
+      });
+
+    {% endif %}
+      
+  </script>
+  
+
+  
+  <script>
+    
+  if(typeof Shopify.OptionSelectors == "undefined"){
+  	console.log("its running");
+    var script = document.createElement('script');
+    script.type = "text/javascript";
+    script.src = "//cdn.shopify.com/s/assets/themes_support/option_selection-fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f.js";	
+    
+    document.getElementsByTagName('head')[0].appendChild(script);	
+  }
+
+  </script>
+  
+    <script>
+      
+      document.addEventListener('lazybeforeunveil', function(e){
+        var bg = e.target.getAttribute('data-bg');
+        if(bg){
+          e.target.style.backgroundImage = 'url(' + bg + ')';
+        }
+      });
+  
+  </script> 
+  
+  
+  {%- if production == true -%}
+			{% include '__opt-js-theme' %}			
+		{%- else -%}
+			{% include '__original-js-theme' %}
+		{%- endif -%}
+  
+</body>
+</html>

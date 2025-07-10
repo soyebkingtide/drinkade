@@ -1,0 +1,34 @@
+<div class="where_logos">
+  {% for block in section.blocks %}
+  	<img class="where_logo" src="{{ block.settings.logo_image | img_url: 'master' }}"/>
+  {% endfor %}
+</div>
+<div class="shop_button_wrap">
+  <a class="shop_button" href="/collections/shop">SHOP ON OUR WEBSITE</a>
+  <a class="shop_button" target="_blank" href="https://www.amazon.com/stores/node/20597263011">SHOP ON AMAZON</a>
+</div>
+{% schema %}
+  {
+    "name": "Company Logos",
+    "settings": [],
+	"blocks": [
+      {
+        "type": "text",
+        "name": "Company Logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "logo_image",
+            "label": "Company logo"
+          }
+		]
+	  }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

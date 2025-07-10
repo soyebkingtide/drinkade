@@ -1,0 +1,20 @@
+	{% capture asyncLoad %}
+		document.addEventListener("StartAsyncLoading", function(event)
+		{
+			console.log('asyncLoad is loaded');
+			asyncLoad();
+		});
+	{% endcapture %}
+
+	{% capture endScript %}
+		loadJS(eventsListenerScript.src); console.log('loaded > ' + eventsListenerScript.src);})
+	{% endcapture %}
+
+	{% capture js_content_for_header %}
+		{{ 
+			content_for_header 
+		| replace: "x.parentNode.insertBefore(s, x);", "loadJS(urls[i]); console.log('load');"
+		| replace: "window.attachEvent('onload', asyncLoad)", ""
+		| replace: "window.addEventListener('load', asyncLoad, false);", asyncLoad		
+		}}
+	{% endcapture %}

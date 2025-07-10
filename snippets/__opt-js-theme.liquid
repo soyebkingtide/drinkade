@@ -1,0 +1,96 @@
+<script>
+
+(function () {
+	if ( typeof window.CustomEvent === "function" ) return false; //If not IE
+
+	function CustomEvent ( event, params ) {
+		params = params || { bubbles: false, cancelable: false, detail: undefined };
+		var evt = document.createEvent( 'CustomEvent' );
+		evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+		return evt;
+	}
+
+	CustomEvent.prototype = window.Event.prototype;
+
+	window.CustomEvent = CustomEvent;
+})();
+
+var view_mode = false;
+var md = new MobileDetect(window.navigator.userAgent);
+
+if(md.mobile())
+{
+	view_mode = 'mobile';
+}
+else
+{
+	view_mode = 'desktop';
+}
+
+if(md.tablet())
+{
+	view_mode = 'desktop';
+}
+
+document.addEventListener("DOMContentLoaded", function(event) 
+{ 
+	if(view_mode == 'mobile')
+	{
+		setTimeout(function(){
+			document.dispatchEvent(new CustomEvent('StartKernelLoading'));
+		}, 1700);
+
+		setTimeout(function(){
+			document.dispatchEvent(new CustomEvent('StartScriptsLoading'));
+		}, 1800);
+
+		setTimeout(function(){
+			document.dispatchEvent(new CustomEvent('StartTrekkieLoading'));
+		}, 7500);		
+	}
+	else
+	{
+		setTimeout(function(){
+			document.dispatchEvent(new CustomEvent('StartKernelLoading'));
+		}, 100);
+
+		setTimeout(function(){
+			document.dispatchEvent(new CustomEvent('StartScriptsLoading'));
+		}, 400);	
+
+		setTimeout(function(){
+			document.dispatchEvent(new CustomEvent('StartTrekkieLoading'));
+		}, 1500);
+	}
+
+	setTimeout(function(){
+		document.dispatchEvent(new CustomEvent('StartOtherLoading'));
+	}, 5000);	
+
+	setTimeout(function(){
+		document.dispatchEvent(new CustomEvent('StartAsyncLoading'));
+	}, 7500);
+});
+
+document.addEventListener("StartScriptsLoading", function(event)
+{
+	setTimeout(function(){
+		document.dispatchEvent(new CustomEvent('StartScriptsLoaded'));
+	}, 500);
+});
+
+document.addEventListener("StartScriptsLoaded", function(event)
+{
+	
+});
+
+
+document.addEventListener("StartOtherLoading", function(event)
+{
+	loadJS('//static.klaviyo.com/onsite/js/klaviyo.js?company_id=mgymQd');
+
+  
+});
+
+
+</script>
