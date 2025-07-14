@@ -10049,8 +10049,8 @@ $testimonialImageSize: 142px;
   z-index: $z-index-announcement;
   transition: height 0.5s cubic-bezier(0, 0, 0.38, 1);
   overflow: hidden;
-  background-color: blue;
-  color: #000;
+  background-color: $colorAnnouncement;
+  color: $colorAnnouncementText;
 }
 
 .announcement--opening {
