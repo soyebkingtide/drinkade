@@ -56,11 +56,11 @@
   
   {{ 'theme.css' | asset_url | stylesheet_tag }}
 
-        {%- if production == true -%}
+        {% comment %} {%- if production == true -%}
 			{% include '__opt-css-theme' %}	 
 		{%- else -%}
 			{% include '__original-css-theme' %}
-		{%- endif -%}
+		{%- endif -%} {% endcomment %}
 
 
 {%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}
