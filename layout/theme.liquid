@@ -21,7 +21,7 @@
 <html class="no-js" lang="{{ shop.locale }}">
 
 <head>
-<!--	<!-- Added by AVADA SEO Suite -->
+<!--	Added by AVADA SEO Suite -->
 <!--	{% include 'avada-seo' %} -->
 	<!-- /Added by AVADA SEO Suite -->
 {% include 'booster-seo' %}  
@@ -36,6 +36,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="{{ settings.color_button }}">
   <link rel="canonical" href="{{ canonical_url }}">
+
+   {{ 'theme.css' | asset_url | stylesheet_tag }}
 
   {%- if settings.favicon -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
@@ -121,7 +123,7 @@
   
  <script>theme.jQuery = jQuery;</script>
 
- {{ 'theme.css' | asset_url | stylesheet_tag }}
+
   
 </head>
 
