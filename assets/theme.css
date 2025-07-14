@@ -9091,7 +9091,7 @@ input[type=image] {
   z-index: 29;
   transition: height 0.5s cubic-bezier(0, 0, 0.38, 1);
   overflow: hidden;
-  background-color: #6d6d6d;
+  background-color: red;
   color: #000;
 }
 
