@@ -54,7 +54,7 @@
 
 
   
-
+  {{ 'theme.css' | asset_url | stylesheet_tag }}
 
         {%- if production == true -%}
 			{% include '__opt-css-theme' %}	 
