@@ -37,7 +37,7 @@
   <meta name="theme-color" content="{{ settings.color_button }}">
   <link rel="canonical" href="{{ canonical_url }}">
 
-   {{ 'theme.css' | asset_url | stylesheet_tag }}
+ 
 
   {%- if settings.favicon -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
@@ -69,6 +69,8 @@
 {{ 'yotpo-full-css.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
   
+
+  {{ 'theme.css' | asset_url | stylesheet_tag }}
 
   <script>
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
