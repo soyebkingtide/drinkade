@@ -53,14 +53,31 @@
   {%- include 'social-meta-tags' -%}
 
 
-  
+  {% comment %} CSS FONT {% endcomment %}
+
+{%- assign header_font = settings.type_header_font_family -%}
+{%- assign base_font = settings.type_base_font_family -%}
+{%- assign base_font_bold = base_font | font_modify: 'weight', 'bolder' -%}
+{%- assign base_font_italic = base_font | font_modify: 'style', 'italic' -%}
+{%- assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic' -%}
+
+<style>
+  {{ header_font | font_face }}
+  {{ base_font | font_face }}
+
+  {{ base_font_bold | font_face }}
+  {{ base_font_italic | font_face }}
+  {{ base_font_bold_italic | font_face }}
+</style>
+
+<style>.lazyload{opacity:0}.lazyloading{opacity:1;transition:opacity .3s;.lazyloaded{opacity:1;transition:opacity 9ms}</style>
   {{ 'theme.css' | asset_url | stylesheet_tag }}
 
-        {% comment %} {%- if production == true -%}
+        {%- if production == true -%}
 			{% include '__opt-css-theme' %}	 
 		{%- else -%}
 			{% include '__original-css-theme' %}
-		{%- endif -%} {% endcomment %}
+		{%- endif -%}
 
 
 {%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}
