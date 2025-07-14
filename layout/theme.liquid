@@ -71,14 +71,14 @@
 </style>
 
 <style>.lazyload{opacity:0}.lazyloading{opacity:1;transition:opacity .3s;.lazyloaded{opacity:1;transition:opacity 9ms}</style>
-  {{ 'theme.css' | asset_url | stylesheet_tag }}
+
 
         {%- if production == true -%}
 			{% include '__opt-css-theme' %}	 
 		{%- else -%}
 			{% include '__original-css-theme' %}
 		{%- endif -%}
-
+  {{ 'theme.css' | asset_url | stylesheet_tag }}
 
 {%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}
 {%- assign time_now = 'now' | date: '%s' %}
