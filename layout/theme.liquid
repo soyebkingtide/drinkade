@@ -72,12 +72,12 @@
 
 <style>.lazyload{opacity:0}.lazyloading{opacity:1;transition:opacity .3s;.lazyloaded{opacity:1;transition:opacity 9ms}</style>
 
-
+{% comment %} 
         {%- if production == true -%}
 			{% include '__opt-css-theme' %}	 
 		{%- else -%}
 			{% include '__original-css-theme' %}
-		{%- endif -%}
+		{%- endif -%} {% endcomment %}
   {{ 'theme.css' | asset_url | stylesheet_tag }}
 
 {%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}
