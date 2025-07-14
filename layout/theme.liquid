@@ -54,6 +54,8 @@
 
 
   
+  {{ 'theme.css' | asset_url | stylesheet_tag }}
+
         {%- if production == true -%}
 			{% include '__opt-css-theme' %}	 
 		{%- else -%}
@@ -66,11 +68,9 @@
 {%- assign yotpo_live_time = shop.metafields.yotpo.yotpo_live | date: '%s' %}
 {%- assign diffSeconds = time_now | minus: yotpo_live_time %}
 {%- if yotpo_offload_content == 'yes' and diffSeconds < 86400 -%}
-
+{{ 'yotpo-full-css.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
   
-
-  {{ 'theme.css' | asset_url | stylesheet_tag }}
 
   <script>
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
