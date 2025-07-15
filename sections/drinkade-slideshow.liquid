@@ -62,7 +62,6 @@
           {% if section.settings.style == 'arrows' %}
             data-arrows="true"
           {% endif %}
-          
           {% if section.settings.style == 'dots' %}
             data-dots="true"
           {% endif %}
@@ -75,7 +74,7 @@
               data-id="{{ block.id }}">
 
               <style>
-              . slideshow__slide--{{ block.id }} .hero__title {
+              .slideshow__slide--{{ block.id }} .hero__title {
                 font-size: {{ block.settings.title_size | times: 0.5 }}px;
               }
               .slideshow__slide--{{ block.id }} .hero__subtitle {
@@ -146,6 +145,7 @@
                       {% endunless %}
                       {% unless block.settings.subtitle == blank %}
                         <h3 class="h2 hero__subtitle font-bigger m-0">
+                        
                           <div class="animation-cropper"><div class="animation-contents">
                           {{ block.settings.subtitle | newline_to_br }}
                           </div></div>
@@ -173,7 +173,7 @@
                             <small>{{ block.settings.small_text | escape }}</small>
                           </div></div>
                         </div>
-                      {% endif %}
+                      {% endunless %}
 
                     </div>
                   </div>
@@ -302,7 +302,7 @@
         "label": "Change images every",
         "default": 7,
         "min": 5,
-        "max": 10,
+        "max": 105,
         "step": 1,
         "unit": "s"
       }
@@ -331,7 +331,7 @@
             "type": "richtext",
             "id": "subtitle",
             "label": "Sub Heading",
-            "default": "<p>Sub Heading</p>"
+             "default": "<p>This is a descriptive paragraph for your slide.</p>"
           },
           {
             "type": "range",
@@ -343,11 +343,11 @@
             "unit": "px"
           },
           {
-            "type": "richtext",
-            "id": "paragraph",
-            "label": "Paragraph",
-            "default": "<p>This is a descriptive paragraph for your slide.</p>"
-          },
+  "type": "richtext",
+  "id": "paragraph",
+  "label": "Paragraph",
+  "default": "<p>This is a descriptive paragraph for your slide.</p>"
+}
           {
             "type": "url",
             "id": "link",
@@ -462,8 +462,8 @@
           "type": "image",
           "settings": {
             "title": "Discover Drinkade",
-            "subtitle": "<p>Boost Your Energy</p>",
-            "paragraph": "<p>Experience the ultimate hydration and energy boost with Drinkade.</p>",
+            "subtitle": "Boost Your Energy",
+            "paragraph": "Experience the ultimate hydration and energy boost with Drinkade.",
             "link_text": "Shop Now",
             "small_text": "Available in multiple flavors."
           }
@@ -472,8 +472,8 @@
           "type": "image",
           "settings": {
             "title": "Stay Refreshed",
-            "subtitle": "<p>Power Your Day</p>",
-            "paragraph": "<p>Perfect for workouts, work, or play.</p>",
+            "subtitle": "Power Your Day",
+            "paragraph": "Perfect for workouts, work, or play.",
             "link_text": "Explore Now",
             "small_text": "Free shipping on orders over $50."
           }
