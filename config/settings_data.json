@@ -1,1 +1,3018 @@
-{"current":{"color_body_bg":"#ffffff","color_body_text":"#000000","color_borders":"#e8e8e1","color_button":"#111111","color_button_text":"#fff","color_cart_dot":"#ff4f33","color_header":"#ffffff","color_header_text":"#000000","color_announcement":"#6d6d6d","color_announcement_text":"#fff","color_footer":"#6d6d6d","color_footer_text":"#fff","color_drawer_background":"#ffffff","color_drawer_text":"#000000","color_drawer_border":"#e8e8e1","color_drawer_button":"#dd2a2e","color_drawer_button_text":"#ffffff","color_modal_overlays":"#000","color_image_2":"#000000","color_image_2_opacity":0,"color_image_1":"#000000","color_image_1_opacity":62,"color_small_image_bg":"#fff","color_large_image_bg":"#111111","type_header_font_family":"futura_n4","type_header_spacing":"25","type_header_base_size":30,"type_header_line_height":1.2,"type_header_accent_transform":true,"type_headers_align_text":true,"type_base_font_family":"futura_n4","type_base_spacing":"25","type_base_size":16,"type_base_line_height":1.6,"type_base_accent_transform":true,"icon_weight":"4px","icon_linecaps":"miter","animate_page_transitions":true,"animate_page_transition_style":"page-slow-fade","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"fade-in","animate_buttons":true,"animate_underlines":true,"vendor_enable":false,"sku_enable":false,"quantity_enable":true,"variant_type":"button","enable_payment_button":true,"inventory_enable":false,"product_save_amount":true,"product_zoom_enable":false,"quick_shop_enable":false,"quick_shop_text":"Quick view","product_hover_image":false,"product_grid_image_size":"landscape","product_color_swatches":false,"collection_color_swatches":false,"product_video_width":"1280","product_video_height":"720","product_video_style":"muted","product_content_1":"how-it-works","product_content_2":"money-back-guarantee","product_content_3":"shipping-returns","product_content_4":"faqs","product_contact":false,"product_contact_title":"Ask a question","enable_product_reviews":false,"reviews_layout":"expandable","cart_type":"drawer","cart_additional_buttons":false,"cart_notes_enable":false,"cart_terms_conditions_enable":false,"cart_terms_conditions_link":"","enable_currencies":false,"currency_format":"money_format","supported_currencies":"USD CAD INR GBP AUD EUR JPY","default_currency":"USD","social_facebook_link":"https:\/\/www.facebook.com\/DrinkAde\/","social_twitter_link":"https:\/\/twitter.com\/Drnkadeofficial","social_pinterest_link":"https:\/\/www.pinterest.com\/drinkade\/","social_instagram_link":"https:\/\/www.instagram.com\/drinkadeofficial\/","social_snapchat_link":"","social_tumblr_link":"","social_linkedin_link":"","social_youtube_link":"","social_vimeo_link":"","share_facebook":true,"share_twitter":true,"share_pinterest":true,"homepage_social_image":"","favicon":"shopify:\/\/shop_images\/Favicon.png","show_breadcrumbs":false,"search_results":"products","recurring-orders-loading":"Loading subscription info...","recurring-orders-inherit-classes":false,"recurring-orders-additional-button-classes":"","shipping_calculator":"Enabled","shipping_calculator_heading":"SHIPPING RATES CALCULATOR","shipping_calculator_default_country":"United States","shipping_calculator_submit_button_label":"CALCULATE SHIPPING RATES","shipping_calculator_submit_button_label_disabled":"Calculating...","checkout_header_image":"","checkout_logo_image":"shopify:\/\/shop_images\/Logo.jpg","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#818181","checkout_button_color":"#8a2a2b","checkout_error_color":"#df2625","color_image_bg":"#000000","breadcrumb":true,"color_sale_tag":"#990000","color_input":"#ffffff","checkout_banner_background_color":"#fff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","blocks":{"1541024121361":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/Logo.jpg","logo-inverted":"shopify:\/\/shop_images\/DA_Logo_wht_2x_85e1e80f-416e-464e-8020-ebcd8b1207c5.png","desktop_logo_width":270,"mobile_logo_width":140}}},"block_order":["1541024121361"],"settings":{"main_menu_link_list":"main-menu","main_menu_alignment":"left","header_style":"sticky","sticky_index":false,"sticky_collection":false,"header_search_enable":false,"type_navigation_size":18,"type_navigation_style":false,"show_announcement":true,"announcement_text":"FREE SHIPPING ON ALL ORDERS  - NO MINIMUM","announcement_link":"","announcement_closable":false}},"footer":{"type":"footer","blocks":{"1540492094122":{"type":"custom","settings":{"show_footer_title":false,"title":"(DRINKADE LOGO)","footer_logo":"shopify:\/\/shop_images\/LOGO-FOOTER.png","text":"<p>PO BOX 30428<br\/>LAS VEGAS, NV 89173<br\/><a href=\"mailto:support@drinkade.com\">SUPPORT@DRINKADE.COM<br\/><\/a>1-800-495-0267<\/p>","container_width":23}},"1543867548307":{"type":"menu","settings":{"show_footer_title":true,"menu":"footer","container_width":15}},"1494301487049":{"type":"menu","settings":{"show_footer_title":true,"menu":"footer3","container_width":20}},"1494292485313":{"type":"menu","settings":{"show_footer_title":true,"menu":"footer2","container_width":17}},"1543867480871":{"type":"logo_social","settings":{"desktop_logo_height":50,"container_width":25}},"1540492183530":{"type":"custom","settings":{"show_footer_title":false,"title":"Custom text","text":"<p>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Drink responsibly.<\/p>","container_width":95}}},"block_order":["1540492094122","1543867548307","1494301487049","1494292485313","1543867480871","1540492183530"],"settings":{"show_payment_icons":false,"show_copyright":true,"copyright_text":". All rights reserved."}},"collection-template":{"type":"collection-template","settings":{"hero_text":"below","per_row":4,"collection_image_enable":true,"collection_tags_style":"none","collection_sort_enable":false}},"product-template":{"type":"product-template","blocks":{"1542774529182":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon6_180x_c5366e2e-d17e-4f4c-8211-5fe8136edd18.png","link":""}},"1542774553915":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon5_180x_77dcb8da-8501-4f26-8a54-3d8abdde714a.png","link":""}},"1542774565633":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon4_180x_e94f310e-2fb8-4e42-b3da-94e6faf52c35.png","link":""}},"1542774579827":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon3_180x_5bfb9d61-a34c-44d9-a1a0-c073ff32d3c2.png","link":""}},"1542774596090":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon2_180x_1.png","link":""}},"1542774603798":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/produced-in-america_180x_89a119fd-8195-4ee2-9ab9-de19a2fe7cf3.png","link":""}}},"block_order":["1542774529182","1542774553915","1542774565633","1542774579827","1542774596090","1542774603798"],"settings":{"image_size":"small","thumbnail_position":"below","description_style":"default","social_enable":false,"related_enable":false,"collection_links_enable":false,"related_count":4}},"article-template":{"type":"article-template","settings":{"blog_show_tags":true,"blog_show_date":false,"blog_show_comments":false,"blog_show_author":false,"social_sharing_blog":true}},"1498163293234":{"type":"featured-content","settings":{"title":"WHAT IS DRINKADE?","text":"<p>DrinkAde is a healthy drink that helps support the body in neutralizing toxins and rehydration. Whether you&#x27;re celebrating, working out  or just surviving these tough times, DrinkAde keeps you hydrated so you feel great!<\/p><p><\/p><p><strong>LOVE IT OR YOUR MONEY BACK<\/strong><\/p>","align_text":"center","narrow_column":true,"enlarge_text":true,"divider":false}},"1498501481980":{"type":"fading-images","blocks":{"1498501481980-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/HOW-TO-USE-BEFORE.jpg","focal_point":"center center","slide_title1":"Drink one bottle","slide_title2":"BEFORE you go out!"}},"1541694846152":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/HOW-TO-USE-DURING_dc6f65ad-9b63-4e64-8aec-f08e50a4d600.jpg","focal_point":"center center","slide_title1":"Enjoy while celebrating!","slide_title2":""}},"1498501481980-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/HOW-TO-USE-AFTERNOON.jpg","focal_point":"center center","slide_title1":"Use as an afternoon","slide_title2":"PICK ME UP!"}},"1498501481980-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BOOST.jpg","focal_point":"center center","slide_title1":"Enjoy the morning AFTER","slide_title2":"to feel great the next day!"}}},"block_order":["1498501481980-0","1541694846152","1498501481980-1","1498501481980-2"],"settings":{"title_lines":"2","title_size":50,"slide_speed":5,"color_overlay":"#000000","color_overlay_opacity":30,"section_height":450}},"blog-template":{"type":"blog-template","settings":{"blog_show_tag_filter":false,"blog_show_rss":false,"blog_show_tags":false,"blog_show_date":true,"blog_show_comments":false,"blog_show_author":false}},"1499790782828":{"type":"text-columns","blocks":{"1499790782828-0":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/DRINKADE-FLAVORS-PREVENTION_4470029d-7b5a-448e-8eff-c0bf2b884992.jpg","title":"PREVENTION","text":"<p>Drink a bottle of caffeine-free, limeade-flavored DrinkAde Prevention before you head out and enjoy the party without paying the price. It’s filled with electrolytes, antioxidants, nutrients, and minerals that help you keep it real and let you take back your tomorrow.<\/p>","button_label":"SHOP PREVENTION","button_link":"shopify:\/\/collections\/prevention","button_size":14,"button_background_color":"#90151c","button_weight":"bold"}},"1499790782828-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/DRINKADE-FLAVORS-BOOST_31105dd8-78be-4bb9-8845-3f60b0d0ea24.jpg","title":"BOOST","text":"<p>Berry-flavored DrinkAde Boost contains extra B vitamins and natural caffeine, along with all the ingredients of Prevention. It is formulated to help neutralize toxins, restore nutrients replenish and rehydrate. It&#x27;s perfect for an extra boost of energy the morning after a late night out.<\/p>","button_label":"SHOP BOOST","button_link":"shopify:\/\/collections\/boost","button_size":14,"button_background_color":"#090ed7","button_weight":"bold"}}},"block_order":["1499790782828-0","1499790782828-1"],"settings":{"title":"","align_text":"center","divider":false}},"product-sections-template":{"type":"product-sections-template","blocks":{"product-image-row":{"type":"image-row","settings":{"image_1":"","image_2":"","image_3":"","image_4":"","enable_gutter":false,"enable_zoom":true}},"product-text-and-image":{"type":"text-and-image","settings":{"image":"","image_width":500,"subtitle":"Improved","title":"Image with text","text":"<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>","button_label":"Optional button","button_link":"","layout":"left"}},"product-background-image-text":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image with text box","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"","alignment":"center","color_border":"#f4f4f4","layout":"right","height":550}},"product-text-columns":{"type":"text-columns","settings":{"title":"","align_text":"left","enable_image_1":true,"image_1":"","title_1":"Example title","text_1":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","enable_image_2":true,"image_2":"","title_2":"Example title","text_2":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","enable_image_3":true,"image_3":"","title_3":"Example title","text_3":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>"}},"product-hero-video":{"type":"hero-video","settings":{"title":"Bring your\nbrand to life.","title_size":80,"subheading":"Seamless hero videos","link_text":"Optional button","link":"","text_align":"vertical-bottom horizontal-left","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","section_height":"650px","mobile_height":"auto"}}},"block_order":["product-image-row","product-text-and-image","product-background-image-text","product-text-columns","product-hero-video"],"settings":{"image_size":"medium","thumbnail_position":"beside","description_style":"default","social_enable":true,"related_enable":true,"related_position":"above","related_count":4,"collection_links_enable":true}},"page-sections-template":{"type":"page-sections-template","blocks":{"page-fading-images":{"type":"fading-images","settings":{"title_lines":"2","title_size":45,"slide_speed":5,"color_overlay":"#000","color_overlay_opacity":30,"section_height":650,"enable_image_1":true,"image_1":"","focal_point_1":"center center","slide_title_1a":"Beautifully animated","slide_title_1b":"titles and images","enable_image_2":true,"image_2":"","focal_point_2":"center center","slide_title_2a":"Use this section","slide_title_2b":"to impress customers","enable_image_3":false,"image_3":"","focal_point_3":"center center","slide_title_3a":"","slide_title_3b":""}},"page-rich-text":{"type":"rich-text","settings":{"title":"","text":"<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>","align_text":"center","narrow_column":true,"enlarge_text":true}},"page-text-columns":{"type":"text-columns","settings":{"title":"","align_text":"left","enable_image_1":true,"image_1":"","title_1":"Example title","text_1":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","enable_image_2":true,"image_2":"","title_2":"Example title","text_2":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","enable_image_3":true,"image_3":"","title_3":"Example title","text_3":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>"}},"page-background-image-text":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image with text box","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"","alignment":"center","color_border":"#f4f4f4","layout":"right","height":550}},"page-featured-collection":{"type":"featured-collection","settings":{"title":"Featured collection","collection":"","per_row":4,"rows":1,"view_all":true}}},"block_order":["page-fading-images","page-rich-text","page-text-columns","page-background-image-text","page-featured-collection"],"settings":{"page_title_enable":false,"page_content_enable":false}},"newsletter-popup":{"type":"newsletter-popup","settings":{"mode":"disabled","popup_seconds":5,"popup_days":30,"popup_title":"Sign up and save","popup_text":"<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>","close_text":"No thanks","enable_newsletter":true,"button_label":"Optional button","button_link":"","enable_button":false}},"1540486219086":{"type":"testimonials","settings":{"title":"CUSTOMERS LOVE DRINKADE!","align_text":"center","round_images":true,"divider":false}},"1540486236341":{"type":"logo-list","blocks":{"1540486236341-3":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon6.png","link":""}},"1540488700527":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon5.png","link":""}},"1540488713360":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon4.png","link":""}},"1540488724482":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon3.png","link":""}},"1540488736743":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon2.png","link":""}},"1540488758960":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/produced-in-america.png","link":""}}},"block_order":["1540486236341-3","1540488700527","1540488713360","1540488724482","1540488736743","1540488758960"],"settings":{"title":"","logo_opacity":100,"divider":false}},"1540490257847":{"type":"text-columns","blocks":{"1540490257847-0":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/aloe_0ba65cb7-9865-4eda-92d9-1a3da0222d1c.png","title":"ALOE VERA","text":"<p>Aloe vera aids digestion and supports the liver in eliminating toxins. Natural Source: Aloe Plant<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1540490257847-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/gotu_2051f1d1-ee63-4723-9b59-d9c7c9d5fe1d.png","title":"GOTU KOLA","text":"<p>Gotu kola helps enhance mental clarity by helping to eliminate mental fog. Natural Source: Plant native to Asia<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1540490257847-2":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/greentea_47a361b2-846a-464d-8d10-416cca6c3046.png","title":"GREEN TEA EXTRACT","text":"<p>Green tea helps support the liver in neutralizing toxins.  It also helps soothe occasional nausea and helps maintain blood and oxygen flow. Natural Source: Plant native to East Asia<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1540490890958":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/milkthistle_28e9a0ef-da35-42b5-a2b5-1a8a457e5d1c.png","title":"MILK THISTLE","text":"<p>Milk thistle supports overall liver health and supports the body in processing toxins.  It also helps relieve occasional indigestion. Natural Source: Plant native to Europe and Asia<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1540490973482":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/potassium_d88db6b6-7eac-4ac6-a8f7-7461d0fe6439.png","title":"ELECTROLYTES","text":"<p>Potassium is an electrolyte that helps balance the amount of water in your body. It also helps support proper nerve and muscle function. Natural Source: Bananas<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1540491104481":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/b12_ac71d925-c90b-4abc-bb36-5f4d3199d9ff.png","title":"B VITAMINS","text":"<p>B vitamins help increase energy levels and help restore mental alertness when fatigued. Natural Source: Avocado, okra, and more<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}}},"block_order":["1540490257847-0","1540490257847-1","1540490257847-2","1540490890958","1540490973482","1540491104481"],"disabled":true,"settings":{"title":"DRINKADE INGREDIENTS","align_text":"center","divider":false}},"1540850814356":{"type":"text-columns","blocks":{"1540850814356-0":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/STEP-1.jpg","title":"Step 1","text":"<p>Drink one 3.4oz bottle.<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1540850814356-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/STEP-2.jpg","title":"Step 2","text":"<p>Enjoy responsibly.<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1540850814356-2":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/HOW-TO-USE-3.jpg","title":"Step 3","text":"<p>Feel great the next day!<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}}},"block_order":["1540850814356-0","1540850814356-1","1540850814356-2"],"settings":{"title":"HOW TO USE DRINKADE","align_text":"center","divider":false}},"1540850879994":{"type":"logo-list","blocks":{"1540850879994-0":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LOGOS-AMAZON.jpg","link":""}},"1540850879994-1":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LOGOS-BEVMO.jpg","link":""}},"1540850879994-3":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LOGOS-GNC.jpg","link":""}},"1541099641504":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LOGOS-KROGER.jpg","link":""}},"1540850879994-2":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LOGOS-CIRCLE-K.jpg","link":""}},"1541188699461":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LOGOS-SHELL.jpg","link":""}},"1541188714083":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LOGOS-VITAMIN.jpg","link":""}},"1541099649933":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LOGOS-RALPHS.jpg","link":""}},"1541188731255":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LOGOS-VONS.jpg","link":""}},"1541099647228":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LOGOS-MGM.jpg","link":""}}},"block_order":["1540850879994-0","1540850879994-1","1540850879994-3","1541099641504","1540850879994-2","1541188699461","1541188714083","1541099649933","1541188731255","1541099647228"],"disabled":true,"settings":{"title":"FIND US AT","logo_opacity":76,"divider":false}},"1541693547695":{"type":"text-and-image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/DA_C_FG-CIRCLE.png","image_width":430,"subtitle":"","title":"THE PERFECT COMPANION WHEN DRINKING","text":"<p>DrinkAde helps support the body in neutralizing toxins, rehydration, and restoring vital nutrients. Take during or after a night out celebrating, and you&#x27;ll feel great the morning after!<\/p>","button_label":"SHOP NOW","button_link":"shopify:\/\/collections\/all","layout":"left","divider":false}},"1542150889508":{"type":"featured-video","disabled":true,"settings":{"title":"","video_url":"https:\/\/vimeo.com\/296114444","divider":false}},"1542167063064":{"type":"yotpo-carousel","settings":{}},"1543867270500":{"type":"newsletter","disabled":true,"settings":{"title":"JOIN OUR MAILING LIST TO RECEIVE DISCOUNTS & SPECIAL OFFERS","text":"<p>(1-2 emails per month – opt out at any time!)<\/p>","color_background":"#cc1a43","color_text":"#ffffff"}},"1543867991728":{"type":"logo-list","blocks":{"1543867991728-2":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/GDLA2.jpg","link":"https:\/\/youtu.be\/PY_8MrLwXM8"}},"1544033518534":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/NYP_374d3b26-2eba-4a61-8976-b21e01faee22.png","link":""}},"1543867991728-3":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/MENSHEALTH_7c9f578b-cad5-45dd-a8de-6bec4f92ab9f.png","link":""}},"1543867991728-1":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/FORBES_3af5aec0-afc7-4179-875e-5a3115aff228.png","link":""}},"1543867991728-0":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/BEVNET_39c33523-1855-490d-a7e7-41f8d37d73eb.png","link":""}},"1544821597888":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/THEDOCTORS.jpg","link":""}},"1544821573636":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/LATIMES.jpg","link":""}},"1544821608728":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/US_fcb0095b-0294-47a5-ad0e-587c22737679.jpg","link":""}}},"block_order":["1543867991728-2","1544033518534","1543867991728-3","1543867991728-1","1543867991728-0","1544821597888","1544821573636","1544821608728"],"settings":{"title":"AS SEEN IN","logo_opacity":100,"divider":false}},"collection-template-shop":{"type":"collection-template-shop","blocks":{"1544669877219":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/DRINKADE-FLAVORS-PREVENTION_4470029d-7b5a-448e-8eff-c0bf2b884992.jpg","title":"PREVENTION","text":"<p>Drink a bottle of caffeine-free, limeade-flavored DrinkAde Prevention before you head out and enjoy the party without paying the price. It&rsquo;s filled with electrolytes, antioxidants, nutrients, and minerals that help you keep it real and let you take back your tomorrow.<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#90151c","button_weight":"bold"}},"1544669967566":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/DRINKADE-FLAVORS-BOOST_40d0e05d-07cd-48f2-a028-954a491edbf5.jpg","title":"BOOST","text":"<p>Berry-flavored DrinkAde&nbsp;Boost contains extra B vitamins and natural caffeine, along with all the ingredients of Prevention. It is formulated to help neutralize toxins, restore nutrients replenish and rehydrate.&nbsp;It's perfect for an extra boost of energy the morning after a late night out.<\/p>\n<p><\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#090ed7","button_weight":"bold"}}},"block_order":["1544669877219","1544669967566"],"settings":{"hero_text":"in","per_row":4,"collection_image_enable":true,"collection_tags_style":"none","collection_sort_enable":false,"title":"CHOOSE BEFORE OR AFTER","align_text":"center","divider":false}},"logo-list":{"type":"logo-list","blocks":{"1544670803892":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon6_180x_1.png","link":""}},"1544670834400":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon5_180x_1.png","link":""}},"1544670845060":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon4_180x_1.png","link":""}},"1544670854764":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon3_180x_1.png","link":""}},"1544670868246":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon2_180x_2.png","link":""}},"1544670873333":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/produced-in-america_180x_1.png","link":""}}},"block_order":["1544670803892","1544670834400","1544670845060","1544670854764","1544670868246","1544670873333"],"settings":{"title":"","logo_opacity":76,"divider":false}},"where-to-buy":{"type":"where-to-buy","blocks":{"1587036407250":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-cvs.png"}},"1545361738542":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-bevmo.png"}},"1587036448261":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-ampm_7ac95e87-b563-4dfc-aec5-d6492781b749.png"}},"1545362123456":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-ralphs.png"}},"1545362135913":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-gnc.png"}},"1545362148653":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-vitaminshoppe.png"}},"1545362162211":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-shell.png"}},"1545362172169":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-albertsons.png"}},"1545362180288":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-binnys.png"}},"1545362189653":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-randalls.png"}},"1545362259124":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/image001.jpg"}},"1545362785898":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-tomthumb.png"}},"1545362800282":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/gg-and-fossil.jpg"}},"1545362825858":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-lees.png"}},"1545362841488":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-abc.png"}},"1545362852310":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-specs.png"}},"1545362812551":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-smiths.png"}},"1545363008000":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-hardrock.png"}},"1545363019413":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-mgm.png"}},"1545363034051":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-wynn.png"}},"1545363044099":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-caesars.png"}},"1545363058466":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-terrible.png"}},"1545363084692":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/hyvee.jpg"}},"1545363223077":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-cosmo.png"}},"1545363232552":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-stations.png"}},"1545363246466":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-rebel.png"}},"1545363258386":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-kroger.png"}},"1545363267232":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-vons.png"}},"1545363284753":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/pick-n-save.jpg"}},"1545363362336":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/frys.jpg"}},"1545363470622":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/distro-greenvalley.png"}},"627c48ef-4244-4d49-9125-a25bd7de3d27":{"type":"text","settings":{"logo_image":"shopify:\/\/shop_images\/Festival_Foods_logo_f049f5d6-5f12-4c0c-90e0-90d8075990de.png"}}},"block_order":["1587036407250","1545361738542","1587036448261","1545362123456","1545362135913","1545362148653","1545362162211","1545362172169","1545362180288","1545362189653","1545362259124","1545362785898","1545362800282","1545362825858","1545362841488","1545362852310","1545362812551","1545363008000","1545363019413","1545363034051","1545363044099","1545363058466","1545363084692","1545363223077","1545363232552","1545363246466","1545363258386","1545363267232","1545363284753","1545363362336","1545363470622","627c48ef-4244-4d49-9125-a25bd7de3d27"],"settings":{}},"text-columns":{"type":"text-columns","blocks":{"1545414525668":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/1_540x_4e5502c0-0fcc-4ad4-ad0a-1bcd02d1bcaf.png","title":"NEUTRALIZES <br>TOXINS","text":"<p>In order to understand how DrinkAde works, we must first understand what happens in our body when we drink. The alcohol causes our liver to produce a toxin called acetaldehyde.&nbsp;<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1545414557431":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/2_540x_42dc5e17-a317-41e0-af63-319c9eb21db8.png","title":"RESTORES <br>VITAL NUTRIENTS","text":"<p>DrinkAde's&nbsp; proprietary formula helps neutralize these acetaldehyde toxins making them easy for the body to process and diffuse. Once this process takes place, the severe symptoms that can happen after drinking are averted.&nbsp;<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1545414588032":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/3_540x_7300e5f2-3d13-4c1d-8d4b-ecac467322e2.png","title":"REHYDRATES <br>THE BODY","text":"<p>Our proprietary blend of vitamins, amino acids, nutrients and minerals also hydrate the body and restore vital nutrients, further helping prevent or recover from a night out celebrating.<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}}},"block_order":["1545414525668","1545414557431","1545414588032"],"settings":{"title":"","align_text":"center","divider":false}},"yotpo-carousel":{"type":"yotpo-carousel","settings":{}},"how-to-use":{"type":"how-to-use","blocks":{"1545450366006":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/STEP-1.jpg","title":"Step 1","text":"<p>Drink&nbsp;one 3.4oz&nbsp;bottle.<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1545450396366":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/rawpixel-752533-unsplash_540x_61fa9363-6445-4ea5-95ef-6497d63eee5f.jpg","title":"Step 2","text":"<p>Enjoy&nbsp;responsibly.<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}},"1545450422207":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/HOW-TO-USE-3_540x_d913eb1f-301b-4fc7-96ab-709ba23a491b.jpg","title":"Step 3","text":"<p>Feel great the next day!<\/p>","button_label":"","button_link":"","button_size":14,"button_background_color":"#111111","button_weight":"normal"}}},"block_order":["1545450366006","1545450396366","1545450422207"],"settings":{"title":"HOW TO USE DRINKADE","align_text":"center","divider":false}},"featured-video":{"type":"featured-video","settings":{"title":"","video_url":"https:\/\/vimeo.com\/296114444","divider":false}},"try-button":{"type":"try-button","settings":{"try_button_text":"TRY IT NOW!","try_button_url":"shopify:\/\/collections\/shop"}},"how-intro":{"type":"how-intro","settings":{"hero_description":"DrinkAde is a healthy blend of vitamins engineered to help you celebrate and feel great the next day. It is the best tasting and most effective way to avoid bad mornings after drinking - or simply get a healthy energy electrolyte and multivitamin boost."}},"ingredients-image":{"type":"ingredients-image","settings":{"whats_inside_desktop":"shopify:\/\/shop_images\/HOW-IT-WORKS-INGREDIENTS.jpg","whats_inside_mobile":"shopify:\/\/shop_images\/what_s-inside-mobile_e11c03a2-3eb9-4be5-a897-ad60b818b3e5.jpg"}},"newsletter":{"type":"newsletter","settings":{"title":"JOIN OUR MAILING LIST TO RECEIVE DISCOUNTS & SPECIAL OFFERS","text":"<p>(1-2 emails per month – opt out at any time!)<\/p>","color_background":"#8a2a2b","color_text":"#ffffff"}},"collection-template-prevention":{"type":"collection-template-prevention","blocks":{"1548181488035":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon6_180x_fff25332-8c4f-4a63-910e-6a17583f3d2e.png","link":""}},"1548181507270":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon5_180x_1b0af625-469a-4e2d-bb71-0eb599e24d59.png","link":""}},"1548181514906":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon4_180x_de12fc21-6b07-466a-902e-26f378edabf6.png","link":""}},"1548181524169":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon3_180x_89ca3f9f-9f28-4222-9269-3f3674df6921.png","link":""}},"1548181533674":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon2_180x_94773ea4-7198-46b8-971b-4b87a12f86f1.png","link":""}},"1548181540497":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/produced-in-america_180x_718a0368-9ef0-4ac5-b247-130faadd7ab7.png","link":""}}},"block_order":["1548181488035","1548181507270","1548181514906","1548181524169","1548181533674","1548181540497"],"settings":{"hero_text":"in","per_row":4,"collection_image_enable":true,"collection_tags_style":"none","collection_sort_enable":false,"banner_hero_text":"SUBSCRIBE AND SAVE!","background_color":"#f9cf56","left_image":"shopify:\/\/shop_images\/calendar_icon.png","left_text":"<p>FLEXIBLE DELIVERY SCHEDULE<\/p>","middle_image":"shopify:\/\/shop_images\/dollar.png","middle_text":"<p>LOCK IN<\/p>\n<p><strong>20% SAVINGS<\/strong><\/p>","right_image":"shopify:\/\/shop_images\/no_money.png","right_text":"<p>CANCEL ANYTIME AFTER 2nd DELIVERY<\/p>","collection_info_img":"shopify:\/\/shop_images\/DRINKADE-FLAVORS-PREVENTION_1080x_9611d902-7957-4f3d-a3a3-9f3c7651ce99.jpg","collection_info_text":"<p>Drink a bottle of caffeine-free, limeade-flavored DrinkAde Prevention before you head out and enjoy the party without paying the price. It&rsquo;s filled with electrolytes, antioxidants, nutrients, and minerals that help you keep it real and let you take back your tomorrow.<\/p>\n<p><\/p>"}},"collection-template-boost":{"type":"collection-template-boost","blocks":{"1548183122491":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon6_180x_30b592e6-5f0b-436e-88e7-9f46f56df647.png","link":""}},"1548183129399":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon5_180x_53b6f496-ac61-4130-a40e-de4504d61898.png","link":""}},"1548183138384":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon4_180x_58a167d5-0b76-4031-984a-bc3ddcd9b291.png","link":""}},"1548183143503":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon3_180x_c79d50bc-4480-4cb8-9de1-ec79453d09bc.png","link":""}},"1548183152195":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/icon2_180x_9e53de7f-4fde-43f2-8760-c560619a85b4.png","link":""}},"1548183158465":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/produced-in-america_180x_cc8d819a-8e9c-42d6-ba1b-8cefc312ad07.png","link":""}}},"block_order":["1548183122491","1548183129399","1548183138384","1548183143503","1548183152195","1548183158465"],"settings":{"hero_text":"in","per_row":4,"collection_image_enable":true,"collection_tags_style":"none","collection_sort_enable":false,"banner_hero_text":"SUBSCRIBE AND SAVE!","background_color":"#f9cf56","left_image":"shopify:\/\/shop_images\/calendar_icon.png","left_text":"<p>FLEXIBLE DELIVERY SCHEDULE<\/p>","middle_image":"shopify:\/\/shop_images\/dollar.png","middle_text":"<p>LOCK IN<\/p>\n<p><strong>20% SAVINGS<\/strong><\/p>","right_image":"shopify:\/\/shop_images\/no_money.png","right_text":"<p>CANCEL ANYTIME AFTER 2nd DELIVERY<\/p>","collection_info_img":"shopify:\/\/shop_images\/DRINKADE-FLAVORS-BOOST_1080x_901b0692-cb8a-447d-a00d-edebfd8b5d4d.jpg","collection_info_text":"<p>Berry-flavored DrinkAde Boost contains extra B vitamins and natural caffeine, along with all the ingredients of Prevention. It is formulated to help neutralize toxins, restore nutrients replenish and rehydrate. It's perfect for an extra boost of energy the morning after a late night out.&nbsp;<\/p>\n<p><\/p>"}},"1540486304667":{"type":"slideshow","blocks":{"1585175132594":{"type":"image","settings":{"title":"Hydrate & Feel Great with DrinkAde","title_size":53,"subheading":"","link":"shopify:\/\/collections\/all","link_text":"BUY NOW","text_align":"vertical-bottom horizontal-center","image":"shopify:\/\/shop_images\/DA-slider-1800x1200b_1400x_1.webp","focal_point":"center center"}}},"block_order":["1585175132594"],"settings":{"section_height":"750px","mobile_height":"250px","style":"dots","autoplay":true,"autoplay_speed":5}},"1595367178150":{"type":"featured-collection","settings":{"title":"DrinkAde Prevention","home_featured_products":"prevention","per_row":4,"rows":1,"view_all":true,"divider":false}},"1595367514726":{"type":"featured-collection","settings":{"title":"DrinkAde Boost","home_featured_products":"boost","per_row":4,"rows":1,"view_all":true,"divider":false}},"list-collections-template":{"type":"list-collections-template","settings":{"title_enable":true,"display_type":"all","sort":"alphabetical","grid":"3"}},"featured-collection1":{"type":"featured-collection1","settings":{"title":"","home_featured_products":"prevention","per_row":4,"rows":1,"view_all":false,"divider":false}},"featured-collection2":{"type":"featured-collection2","settings":{"title":"","home_featured_products":"boost","per_row":4,"rows":1,"view_all":false,"divider":false}}},"content_for_index":["1540486304667","1541693547695","1498163293234","1499790782828","1540850814356","1595367178150","1595367514726","1540486236341","1543867991728","1540486219086","1542167063064","1542150889508","1498501481980","1540490257847","1540850879994","1543867270500"],"blocks":{"855628211100114053":{"type":"shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507","disabled":false,"settings":{}},"5557296251606798448":{"type":"shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-embed\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d","disabled":false,"settings":{}},"10840395464443086010":{"type":"shopify:\/\/apps\/alia\/blocks\/customer-app-frame\/51f1d398-3e41-44da-b81e-defd5804b292","disabled":false,"settings":{}}}},"presets":{"Classic":{"color_body_bg":"#ffffff","color_body_text":"#000000","color_borders":"#e8e8e1","color_button":"#111111","color_button_text":"#fff","color_drawer_background":"#ffffff","color_drawer_text":"#000000","color_drawer_border":"#e8e8e1","color_drawer_button":"#111111","color_drawer_button_text":"#ffffff","color_footer":"#111111","color_footer_text":"#fff","color_image_1":"#000000","color_image_1_opacity":62,"color_image_2":"#000000","color_image_2_opacity":0,"color_small_image_bg":"#fff","color_large_image_bg":"#111111","type_header_spacing":"0","type_header_font_family":"itc_avant_garde_gothic_n7","type_header_base_size":35,"type_header_line_height":1.2,"type_header_accent_transform":true,"type_base_font_family":"futura_n4","type_base_spacing":"25","type_base_size":17,"type_base_line_height":1.6,"type_base_accent_transform":true,"icon_weight":"4px","icon_linecaps":"miter","animate_page_transitions":true,"animate_page_transition_style":"page-slow-fade","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"zoom-fade","animate_buttons":true,"animate_underlines":true,"quick_shop_text":"Quick view","cart_type":"drawer","currency_format":"money_format","supported_currencies":"USD CAD INR GBP AUD EUR JPY","default_currency":"USD","share_facebook":true,"share_twitter":true,"share_pinterest":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","breadcrumb":true,"color_sale_tag":"#990000","color_input":"#ffffff","checkout_banner_background_color":"#fff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","settings":{"main_menu_link_list":"main-menu","sticky_index":true,"sticky_collection":false,"header_search_enable":false,"show_announcement":true}},"footer":{"type":"footer","blocks":{"1494292481350":{"type":"logo_social","settings":{"container_width":20}},"1494292485313":{"type":"menu","settings":{"menu":"main-menu","container_width":20}},"1494292487693":{"type":"newsletter","settings":{"container_width":33}},"1494301487049":{"type":"menu","settings":{"menu":"footer","container_width":20}}},"block_order":["1494292481350","1494301487049","1494292485313","1494292487693"],"settings":{"show_payment_icons":false}},"collection-template":{"type":"collection-template","settings":{"per_row":4,"collection_image_enable":true,"collection_tags_style":"inline","collection_sort_enable":false}},"product-template":{"type":"product-template","settings":{"image_size":"medium","social_enable":true,"related_enable":true}},"article-template":{"type":"article-template","settings":{"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false,"social_sharing_blog":true}},"1498163293234":{"type":"featured-content","settings":{"divider":false}},"1498501481980":{"type":"fading-images","blocks":{"1498501481980-0":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Beautifully animated","slide_title2":"titles and images"}},"1498501481980-1":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Use this section","slide_title2":"to impress"}},"1498501481980-2":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"And highlight","slide_title2":"important details"}}},"block_order":["1498501481980-0","1498501481980-1","1498501481980-2"],"settings":{"slide_speed":5,"color_overlay":"#000","color_overlay_opacity":30,"section_height":550}},"blog-template":{"type":"blog-template","settings":{"blog_show_tag_filter":true,"blog_show_rss":false,"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false}},"1499789718857":{"type":"featured-collections","blocks":{"1499789718857-0":{"type":"collection","settings":{"collection":"","size":"wide"}},"1499789718857-1":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-2":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-3":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-4":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-5":{"type":"collection","settings":{"collection":"","size":"wide"}}},"block_order":["1499789718857-0","1499789718857-1","1499789718857-2","1499789718857-3","1499789718857-4","1499789718857-5"],"settings":{"title":"","divider":false}},"1499790529450":{"type":"hero-video","settings":{"title":"Bring your\nbrand to life.","title_size":80,"subheading":"Seamless hero videos","link_text":"","link":"","text_align":"vertical-bottom horizontal-left","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","section_height":"650px"}},"1499790633921":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image and text","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"","alignment":"center","color_border":"#f4f4f4","layout":"left","height":650}},"1499790731541":{"type":"collection-callout","settings":{"collection":"","subtitle":"Brand new","title":"Collection callout","text":"Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.","cta_text1":"Shop Jackets","cta_link1":"","cta_text2":"Shop All","cta_link2":"","divider":false}},"1499790782828":{"type":"text-columns","blocks":{"1499790782828-0":{"type":"text_block","settings":{"enable_image":true,"image":"","title":"Example title","text":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","button_label":"","button_link":""}},"1499790782828-1":{"type":"text_block","settings":{"enable_image":true,"image":"","title":"Example title","text":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","button_label":"","button_link":""}},"1499790782828-2":{"type":"text_block","settings":{"enable_image":true,"image":"","title":"Example title","text":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","button_label":"","button_link":""}}},"block_order":["1499790782828-0","1499790782828-1","1499790782828-2"],"settings":{"title":"","align_text":"left","divider":false}},"product-sections-template":{"type":"product-sections-template","blocks":{"product-image-row":{"type":"image-row","settings":{}},"product-text-and-image":{"type":"text-and-image","settings":{}},"product-background-image-text":{"type":"background-image-text","settings":{"layout":"right"}},"product-text-columns":{"type":"text-columns","settings":{}},"product-hero-video":{"type":"hero-video","settings":{}}},"block_order":["product-image-row","product-text-and-image","product-background-image-text","product-text-columns","product-hero-video"],"settings":{}},"page-sections-template":{"type":"page-sections-template","blocks":{"page-fading-images":{"type":"fading-images","settings":{}},"page-rich-text":{"type":"rich-text","settings":{"title":"","align_text":"center","enlarge_text":true}},"page-text-columns":{"type":"text-columns","settings":{}},"page-background-image-text":{"type":"background-image-text","settings":{"layout":"right"}},"page-featured-collection":{"type":"featured-collection","settings":{}}},"block_order":["page-fading-images","page-rich-text","page-text-columns","page-background-image-text","page-featured-collection"],"settings":{}}},"content_for_index":["1499790529450","1498163293234","1499789718857","1498501481980","1499790731541","1499790633921","1499790782828"]},"Elegant":{"color_body_bg":"#ffffff","color_body_text":"#000000","color_borders":"#e8e8e1","color_button":"#353956","color_button_text":"#fff","color_header":"#ffffff","color_header_text":"#040404","color_footer":"#17172c","color_footer_text":"#fff","color_drawer_background":"#ffffff","color_drawer_text":"#17172c","color_drawer_border":"#e8e8e1","color_drawer_button":"#353956","color_drawer_button_text":"#ffffff","color_modal_overlays":"#17172c","color_image_2":"#17172c","color_image_2_opacity":0,"color_image_1":"#17172c","color_image_1_opacity":32,"color_small_image_bg":"#f4f4f4","color_large_image_bg":"#17172c","type_header_spacing":"0","type_header_font_family":"bauer_bodoni_n7","type_header_base_size":42,"type_header_line_height":1.3,"type_base_font_family":"futura_n4","type_base_spacing":"25","type_base_size":17,"type_base_line_height":1.6,"icon_weight":"3px","icon_linecaps":"miter","animate_page_transitions":true,"animate_page_transition_style":"page-slow-fade","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"zoom-fade","animate_buttons":true,"animate_underlines":true,"quick_shop_text":"Quick view","cart_type":"drawer","currency_format":"money_format","supported_currencies":"USD CAD INR GBP AUD EUR JPY","default_currency":"USD","share_facebook":true,"share_twitter":true,"share_pinterest":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","breadcrumb":true,"color_sale_tag":"#990000","color_input":"#ffffff","checkout_banner_background_color":"#fff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","settings":{"main_menu_link_list":"main-menu","sticky_index":true,"sticky_collection":false,"header_search_enable":false,"show_announcement":true}},"footer":{"type":"footer","blocks":{"1494292481350":{"type":"logo_social","settings":{"container_width":20}},"1494292485313":{"type":"menu","settings":{"menu":"main-menu","container_width":20}},"1494292487693":{"type":"newsletter","settings":{"container_width":33}},"1494301487049":{"type":"menu","settings":{"menu":"footer","container_width":20}}},"block_order":["1494292481350","1494301487049","1494292485313","1494292487693"],"settings":{"show_payment_icons":false}},"collection-template":{"type":"collection-template","settings":{"per_row":4,"collection_image_enable":true,"collection_tags_style":"inline","collection_sort_enable":false}},"product-template":{"type":"product-template","settings":{"image_size":"medium","social_enable":true,"related_enable":true}},"article-template":{"type":"article-template","settings":{"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false,"social_sharing_blog":true}},"1498163293234":{"type":"featured-content","settings":{"divider":false}},"1498501481980":{"type":"fading-images","blocks":{"1498501481980-0":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Beautifully animated","slide_title2":"titles and images"}},"1498501481980-1":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Use this section","slide_title2":"to impress"}},"1498501481980-2":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"And highlight","slide_title2":"important details"}}},"block_order":["1498501481980-0","1498501481980-1","1498501481980-2"],"settings":{"slide_speed":5,"color_overlay":"#000","color_overlay_opacity":30,"section_height":550}},"blog-template":{"type":"blog-template","settings":{"blog_show_tag_filter":true,"blog_show_rss":false,"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false}},"1499789718857":{"type":"featured-collections","blocks":{"1499789718857-0":{"type":"collection","settings":{"collection":"","size":"wide"}},"1499789718857-1":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-2":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-3":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-4":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-5":{"type":"collection","settings":{"collection":"","size":"wide"}}},"block_order":["1499789718857-0","1499789718857-1","1499789718857-2","1499789718857-3","1499789718857-4","1499789718857-5"],"settings":{"title":"","divider":false}},"1499790529450":{"type":"hero-video","settings":{"title":"Bring your\nbrand to life.","title_size":80,"subheading":"Seamless hero videos","link_text":"","link":"","text_align":"vertical-bottom horizontal-left","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","section_height":"650px"}},"1499790633921":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image and text","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"","alignment":"center","color_border":"#f4f4f4","layout":"left","height":650}},"1499790731541":{"type":"collection-callout","settings":{"collection":"","subtitle":"Brand new","title":"Collection callout","text":"Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.","cta_text1":"Shop Jackets","cta_link1":"","cta_text2":"Shop All","cta_link2":"","divider":false}},"1499790782828":{"type":"text-columns","blocks":{"1499790782828-0":{"type":"text_block","settings":{"enable_image":true,"image":"","title":"Example title","text":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","button_label":"","button_link":""}},"1499790782828-1":{"type":"text_block","settings":{"enable_image":true,"image":"","title":"Example title","text":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","button_label":"","button_link":""}},"1499790782828-2":{"type":"text_block","settings":{"enable_image":true,"image":"","title":"Example title","text":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","button_label":"","button_link":""}}},"block_order":["1499790782828-0","1499790782828-1","1499790782828-2"],"settings":{"title":"","align_text":"left","divider":false}}},"content_for_index":["1499790529450","1498163293234","1499789718857","1498501481980","1499790731541","1499790633921","1499790782828"]},"Minimal":{"color_body_bg":"#ffffff","color_body_text":"#000000","color_borders":"#f0f1f3","color_button":"#111111","color_button_text":"#fff","color_header":"#fff","color_header_text":"#000","color_footer":"#f0f1f3","color_footer_text":"#2c2c2c","color_drawer_background":"#ffffff","color_drawer_text":"#000000","color_drawer_border":"#f0f1f3","color_drawer_button":"#111111","color_drawer_button_text":"#ffffff","color_modal_overlays":"#aeb1b8","color_image_2":"#000000","color_image_2_opacity":0,"color_image_1":"#000000","color_image_1_opacity":26,"color_small_image_bg":"#ffffff","color_large_image_bg":"#dedfe1","type_header_spacing":"75","type_header_font_family":"din_next_n7","type_header_base_size":34,"type_header_line_height":1.3,"type_header_accent_transform":true,"type_base_font_family":"din_next_n4","type_base_spacing":"25","type_base_size":17,"type_base_line_height":1.6,"type_base_accent_transform":true,"icon_weight":"2px","icon_linecaps":"round","animate_page_transitions":true,"animate_page_transition_style":"page-slide-reveal-down","animate_sections":true,"animate_sections_background_style":"zoom-fade","animate_sections_text_style":"rise-up","animate_images":true,"animate_images_style":"fade-in","animate_buttons":true,"animate_underlines":true,"quick_shop_text":"Quick view","cart_type":"drawer","currency_format":"money_format","supported_currencies":"USD CAD INR GBP AUD EUR JPY","default_currency":"USD","share_facebook":true,"share_twitter":true,"share_pinterest":true,"checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#111111","checkout_button_color":"#111111","checkout_error_color":"#ff6d6d","color_image_bg":"#000000","breadcrumb":true,"color_sale_tag":"#990000","color_input":"#ffffff","checkout_banner_background_color":"#fff","checkout_call_to_action_color":"#a26b25","checkout_use_header_image":false,"sections":{"header":{"type":"header","settings":{"main_menu_link_list":"main-menu","sticky_index":false,"sticky_collection":false,"header_search_enable":false,"show_announcement":true}},"footer":{"type":"footer","blocks":{"1494292481350":{"type":"logo_social","settings":{"container_width":20}},"1494292485313":{"type":"menu","settings":{"menu":"main-menu","container_width":20}},"1494292487693":{"type":"newsletter","settings":{"container_width":33}},"1494301487049":{"type":"menu","settings":{"menu":"footer","container_width":20}}},"block_order":["1494292481350","1494301487049","1494292485313","1494292487693"],"settings":{"show_payment_icons":false}},"collection-template":{"type":"collection-template","settings":{"per_row":4,"collection_image_enable":true,"collection_tags_style":"inline","collection_sort_enable":false}},"product-template":{"type":"product-template","settings":{"image_size":"medium","social_enable":true,"related_enable":true}},"article-template":{"type":"article-template","settings":{"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false,"social_sharing_blog":true}},"1498163293234":{"type":"featured-content","settings":{"divider":false}},"1498501481980":{"type":"fading-images","blocks":{"1498501481980-0":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Beautifully animated","slide_title2":"titles and images"}},"1498501481980-1":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"Use this section","slide_title2":"to impress"}},"1498501481980-2":{"type":"image","settings":{"image":"","focal_point":"center center","slide_title1":"And highlight","slide_title2":"important details"}}},"block_order":["1498501481980-0","1498501481980-1","1498501481980-2"],"settings":{"slide_speed":5,"color_overlay":"#000","color_overlay_opacity":30,"section_height":550}},"blog-template":{"type":"blog-template","settings":{"blog_show_tag_filter":true,"blog_show_rss":false,"blog_show_tags":true,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false}},"1499789718857":{"type":"featured-collections","blocks":{"1499789718857-0":{"type":"collection","settings":{"collection":"","size":"wide"}},"1499789718857-1":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-2":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-3":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-4":{"type":"collection","settings":{"collection":"","size":"square-small"}},"1499789718857-5":{"type":"collection","settings":{"collection":"","size":"wide"}}},"block_order":["1499789718857-0","1499789718857-1","1499789718857-2","1499789718857-3","1499789718857-4","1499789718857-5"],"settings":{"title":"","divider":false}},"1499790529450":{"type":"hero-video","settings":{"title":"Bring your\nbrand to life.","title_size":80,"subheading":"Seamless hero videos","link_text":"","link":"","text_align":"vertical-bottom horizontal-left","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","section_height":"650px"}},"1499790633921":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"Large image and text","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","image":"","alignment":"center","color_border":"#f4f4f4","layout":"left","height":650}},"1499790731541":{"type":"collection-callout","settings":{"collection":"","subtitle":"Brand new","title":"Collection callout","text":"Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.","cta_text1":"Shop Jackets","cta_link1":"","cta_text2":"Shop All","cta_link2":"","divider":false}},"1499790782828":{"type":"text-columns","blocks":{"1499790782828-0":{"type":"text_block","settings":{"enable_image":true,"image":"","title":"Example title","text":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","button_label":"","button_link":""}},"1499790782828-1":{"type":"text_block","settings":{"enable_image":true,"image":"","title":"Example title","text":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","button_label":"","button_link":""}},"1499790782828-2":{"type":"text_block","settings":{"enable_image":true,"image":"","title":"Example title","text":"<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>","button_label":"","button_link":""}}},"block_order":["1499790782828-0","1499790782828-1","1499790782828-2"],"settings":{"title":"","align_text":"left","divider":false}}},"content_for_index":["1499790529450","1498163293234","1499789718857","1498501481980","1499790731541","1499790633921","1499790782828"]}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_borders": "#e8e8e1",
+    "color_button": "#111111",
+    "color_button_text": "#fff",
+    "color_cart_dot": "#ff4f33",
+    "color_header": "#ffffff",
+    "color_header_text": "#000000",
+    "color_announcement": "#6d6d6d",
+    "color_announcement_text": "#fff",
+    "color_footer": "#6d6d6d",
+    "color_footer_text": "#fff",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#000000",
+    "color_drawer_border": "#e8e8e1",
+    "color_drawer_button": "#dd2a2e",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#000",
+    "color_image_2": "#000000",
+    "color_image_2_opacity": 0,
+    "color_image_1": "#000000",
+    "color_image_1_opacity": 62,
+    "color_small_image_bg": "#fff",
+    "color_large_image_bg": "#111111",
+    "type_header_font_family": "futura_n4",
+    "type_header_spacing": "25",
+    "type_header_base_size": 30,
+    "type_header_line_height": 1.2,
+    "type_header_accent_transform": true,
+    "type_headers_align_text": true,
+    "type_base_font_family": "futura_n4",
+    "type_base_spacing": "25",
+    "type_base_size": 16,
+    "type_base_line_height": 1.6,
+    "type_base_accent_transform": true,
+    "icon_weight": "4px",
+    "icon_linecaps": "miter",
+    "animate_page_transitions": true,
+    "animate_page_transition_style": "page-slow-fade",
+    "animate_sections": true,
+    "animate_sections_background_style": "zoom-fade",
+    "animate_sections_text_style": "rise-up",
+    "animate_images": true,
+    "animate_images_style": "fade-in",
+    "animate_buttons": true,
+    "animate_underlines": true,
+    "vendor_enable": false,
+    "sku_enable": false,
+    "quantity_enable": true,
+    "variant_type": "button",
+    "enable_payment_button": true,
+    "inventory_enable": false,
+    "product_save_amount": true,
+    "product_zoom_enable": false,
+    "quick_shop_enable": false,
+    "quick_shop_text": "Quick view",
+    "product_hover_image": false,
+    "product_grid_image_size": "landscape",
+    "product_color_swatches": false,
+    "collection_color_swatches": false,
+    "product_video_width": "1280",
+    "product_video_height": "720",
+    "product_video_style": "muted",
+    "product_content_1": "how-it-works",
+    "product_content_2": "money-back-guarantee",
+    "product_content_3": "shipping-returns",
+    "product_content_4": "faqs",
+    "product_contact": false,
+    "product_contact_title": "Ask a question",
+    "enable_product_reviews": false,
+    "reviews_layout": "expandable",
+    "cart_type": "drawer",
+    "cart_additional_buttons": false,
+    "cart_notes_enable": false,
+    "cart_terms_conditions_enable": false,
+    "cart_terms_conditions_link": "",
+    "enable_currencies": false,
+    "currency_format": "money_format",
+    "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+    "default_currency": "USD",
+    "social_facebook_link": "https://www.facebook.com/DrinkAde/",
+    "social_twitter_link": "https://twitter.com/Drnkadeofficial",
+    "social_pinterest_link": "https://www.pinterest.com/drinkade/",
+    "social_instagram_link": "https://www.instagram.com/drinkadeofficial/",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_linkedin_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "homepage_social_image": "",
+    "favicon": "shopify://shop_images/Favicon.png",
+    "show_breadcrumbs": false,
+    "search_results": "products",
+    "recurring-orders-loading": "Loading subscription info...",
+    "recurring-orders-inherit-classes": false,
+    "recurring-orders-additional-button-classes": "",
+    "shipping_calculator": "Enabled",
+    "shipping_calculator_heading": "SHIPPING RATES CALCULATOR",
+    "shipping_calculator_default_country": "United States",
+    "shipping_calculator_submit_button_label": "CALCULATE SHIPPING RATES",
+    "shipping_calculator_submit_button_label_disabled": "Calculating...",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify://shop_images/Logo.jpg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#818181",
+    "checkout_button_color": "#8a2a2b",
+    "checkout_error_color": "#df2625",
+    "color_image_bg": "#000000",
+    "breadcrumb": true,
+    "color_sale_tag": "#990000",
+    "color_input": "#ffffff",
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1541024121361": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/Logo.jpg",
+              "logo-inverted": "shopify://shop_images/DA_Logo_wht_2x_85e1e80f-416e-464e-8020-ebcd8b1207c5.png",
+              "desktop_logo_width": 270,
+              "mobile_logo_width": 140
+            }
+          }
+        },
+        "block_order": [
+          "1541024121361"
+        ],
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "main_menu_alignment": "left",
+          "header_style": "sticky",
+          "sticky_index": false,
+          "sticky_collection": false,
+          "header_search_enable": false,
+          "type_navigation_size": 18,
+          "type_navigation_style": false,
+          "show_announcement": true,
+          "announcement_text": "FREE SHIPPING ON ALL ORDERS  - NO MINIMUM",
+          "announcement_link": "",
+          "announcement_closable": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1540492094122": {
+            "type": "custom",
+            "settings": {
+              "show_footer_title": false,
+              "title": "(DRINKADE LOGO)",
+              "footer_logo": "shopify://shop_images/LOGO-FOOTER.png",
+              "text": "<p>PO BOX 30428<br/>LAS VEGAS, NV 89173<br/><a href=\"mailto:support@drinkade.com\">SUPPORT@DRINKADE.COM<br/></a>1-800-495-0267</p>",
+              "container_width": 23
+            }
+          },
+          "1543867548307": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 15
+            }
+          },
+          "1494301487049": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer3",
+              "container_width": 20
+            }
+          },
+          "1494292485313": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer2",
+              "container_width": 17
+            }
+          },
+          "1543867480871": {
+            "type": "logo_social",
+            "settings": {
+              "desktop_logo_height": 50,
+              "container_width": 25
+            }
+          },
+          "1540492183530": {
+            "type": "custom",
+            "settings": {
+              "show_footer_title": false,
+              "title": "Custom text",
+              "text": "<p>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Drink responsibly.</p>",
+              "container_width": 95
+            }
+          }
+        },
+        "block_order": [
+          "1540492094122",
+          "1543867548307",
+          "1494301487049",
+          "1494292485313",
+          "1543867480871",
+          "1540492183530"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "show_copyright": true,
+          "copyright_text": ". All rights reserved."
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "hero_text": "below",
+          "per_row": 4,
+          "collection_image_enable": true,
+          "collection_tags_style": "none",
+          "collection_sort_enable": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "blocks": {
+          "1542774529182": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon6_180x_c5366e2e-d17e-4f4c-8211-5fe8136edd18.png",
+              "link": ""
+            }
+          },
+          "1542774553915": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon5_180x_77dcb8da-8501-4f26-8a54-3d8abdde714a.png",
+              "link": ""
+            }
+          },
+          "1542774565633": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon4_180x_e94f310e-2fb8-4e42-b3da-94e6faf52c35.png",
+              "link": ""
+            }
+          },
+          "1542774579827": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon3_180x_5bfb9d61-a34c-44d9-a1a0-c073ff32d3c2.png",
+              "link": ""
+            }
+          },
+          "1542774596090": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon2_180x_1.png",
+              "link": ""
+            }
+          },
+          "1542774603798": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/produced-in-america_180x_89a119fd-8195-4ee2-9ab9-de19a2fe7cf3.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1542774529182",
+          "1542774553915",
+          "1542774565633",
+          "1542774579827",
+          "1542774596090",
+          "1542774603798"
+        ],
+        "settings": {
+          "image_size": "small",
+          "thumbnail_position": "below",
+          "description_style": "default",
+          "social_enable": false,
+          "related_enable": false,
+          "collection_links_enable": false,
+          "related_count": 4
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_tags": true,
+          "blog_show_date": false,
+          "blog_show_comments": false,
+          "blog_show_author": false,
+          "social_sharing_blog": true
+        }
+      },
+      "1498163293234": {
+        "type": "featured-content",
+        "settings": {
+          "title": "WHAT IS DRINKADE?",
+          "text": "<p>DrinkAde is a healthy drink that helps support the body in neutralizing toxins and rehydration. Whether you&#x27;re celebrating, working out  or just surviving these tough times, DrinkAde keeps you hydrated so you feel great!</p><p></p><p><strong>LOVE IT OR YOUR MONEY BACK</strong></p>",
+          "align_text": "center",
+          "narrow_column": true,
+          "enlarge_text": true,
+          "divider": false
+        }
+      },
+      "1498501481980": {
+        "type": "fading-images",
+        "blocks": {
+          "1498501481980-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/HOW-TO-USE-BEFORE.jpg",
+              "focal_point": "center center",
+              "slide_title1": "Drink one bottle",
+              "slide_title2": "BEFORE you go out!"
+            }
+          },
+          "1541694846152": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/HOW-TO-USE-DURING_dc6f65ad-9b63-4e64-8aec-f08e50a4d600.jpg",
+              "focal_point": "center center",
+              "slide_title1": "Enjoy while celebrating!",
+              "slide_title2": ""
+            }
+          },
+          "1498501481980-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/HOW-TO-USE-AFTERNOON.jpg",
+              "focal_point": "center center",
+              "slide_title1": "Use as an afternoon",
+              "slide_title2": "PICK ME UP!"
+            }
+          },
+          "1498501481980-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BOOST.jpg",
+              "focal_point": "center center",
+              "slide_title1": "Enjoy the morning AFTER",
+              "slide_title2": "to feel great the next day!"
+            }
+          }
+        },
+        "block_order": [
+          "1498501481980-0",
+          "1541694846152",
+          "1498501481980-1",
+          "1498501481980-2"
+        ],
+        "settings": {
+          "title_lines": "2",
+          "title_size": 50,
+          "slide_speed": 5,
+          "color_overlay": "#000000",
+          "color_overlay_opacity": 30,
+          "section_height": 450
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "blog_show_tag_filter": false,
+          "blog_show_rss": false,
+          "blog_show_tags": false,
+          "blog_show_date": true,
+          "blog_show_comments": false,
+          "blog_show_author": false
+        }
+      },
+      "1499790782828": {
+        "type": "text-columns",
+        "blocks": {
+          "1499790782828-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/DRINKADE-FLAVORS-PREVENTION_4470029d-7b5a-448e-8eff-c0bf2b884992.jpg",
+              "title": "PREVENTION",
+              "text": "<p>Drink a bottle of caffeine-free, limeade-flavored DrinkAde Prevention before you head out and enjoy the party without paying the price. It’s filled with electrolytes, antioxidants, nutrients, and minerals that help you keep it real and let you take back your tomorrow.</p>",
+              "button_label": "SHOP PREVENTION",
+              "button_link": "shopify://collections/prevention",
+              "button_size": 14,
+              "button_background_color": "#90151c",
+              "button_weight": "bold"
+            }
+          },
+          "1499790782828-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/DRINKADE-FLAVORS-BOOST_31105dd8-78be-4bb9-8845-3f60b0d0ea24.jpg",
+              "title": "BOOST",
+              "text": "<p>Berry-flavored DrinkAde Boost contains extra B vitamins and natural caffeine, along with all the ingredients of Prevention. It is formulated to help neutralize toxins, restore nutrients replenish and rehydrate. It&#x27;s perfect for an extra boost of energy the morning after a late night out.</p>",
+              "button_label": "SHOP BOOST",
+              "button_link": "shopify://collections/boost",
+              "button_size": 14,
+              "button_background_color": "#090ed7",
+              "button_weight": "bold"
+            }
+          }
+        },
+        "block_order": [
+          "1499790782828-0",
+          "1499790782828-1"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "center",
+          "divider": false
+        }
+      },
+      "product-sections-template": {
+        "type": "product-sections-template",
+        "blocks": {
+          "product-image-row": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          },
+          "product-text-and-image": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "",
+              "image_width": 500,
+              "subtitle": "Improved",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "product-background-image-text": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "Impressive",
+              "title": "Large image with text box",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+              "button_label": "",
+              "button_link": "",
+              "image": "",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "right",
+              "height": 550
+            }
+          },
+          "product-text-columns": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "left",
+              "enable_image_1": true,
+              "image_1": "",
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+              "enable_image_2": true,
+              "image_2": "",
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+              "enable_image_3": true,
+              "image_3": "",
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>"
+            }
+          },
+          "product-hero-video": {
+            "type": "hero-video",
+            "settings": {
+              "title": "Bring your\nbrand to life.",
+              "title_size": 80,
+              "subheading": "Seamless hero videos",
+              "link_text": "Optional button",
+              "link": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+              "section_height": "650px",
+              "mobile_height": "auto"
+            }
+          }
+        },
+        "block_order": [
+          "product-image-row",
+          "product-text-and-image",
+          "product-background-image-text",
+          "product-text-columns",
+          "product-hero-video"
+        ],
+        "settings": {
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "above",
+          "related_count": 4,
+          "collection_links_enable": true
+        }
+      },
+      "page-sections-template": {
+        "type": "page-sections-template",
+        "blocks": {
+          "page-fading-images": {
+            "type": "fading-images",
+            "settings": {
+              "title_lines": "2",
+              "title_size": 45,
+              "slide_speed": 5,
+              "color_overlay": "#000",
+              "color_overlay_opacity": 30,
+              "section_height": 650,
+              "enable_image_1": true,
+              "image_1": "",
+              "focal_point_1": "center center",
+              "slide_title_1a": "Beautifully animated",
+              "slide_title_1b": "titles and images",
+              "enable_image_2": true,
+              "image_2": "",
+              "focal_point_2": "center center",
+              "slide_title_2a": "Use this section",
+              "slide_title_2b": "to impress customers",
+              "enable_image_3": false,
+              "image_3": "",
+              "focal_point_3": "center center",
+              "slide_title_3a": "",
+              "slide_title_3b": ""
+            }
+          },
+          "page-rich-text": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.</p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          },
+          "page-text-columns": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "left",
+              "enable_image_1": true,
+              "image_1": "",
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+              "enable_image_2": true,
+              "image_2": "",
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+              "enable_image_3": true,
+              "image_3": "",
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>"
+            }
+          },
+          "page-background-image-text": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "Impressive",
+              "title": "Large image with text box",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+              "button_label": "",
+              "button_link": "",
+              "image": "",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "right",
+              "height": 550
+            }
+          },
+          "page-featured-collection": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Featured collection",
+              "collection": "",
+              "per_row": 4,
+              "rows": 1,
+              "view_all": true
+            }
+          }
+        },
+        "block_order": [
+          "page-fading-images",
+          "page-rich-text",
+          "page-text-columns",
+          "page-background-image-text",
+          "page-featured-collection"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "Sign up and save",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
+          "close_text": "No thanks",
+          "enable_newsletter": true,
+          "button_label": "Optional button",
+          "button_link": "",
+          "enable_button": false
+        }
+      },
+      "1540486219086": {
+        "type": "testimonials",
+        "settings": {
+          "title": "CUSTOMERS LOVE DRINKADE!",
+          "align_text": "center",
+          "round_images": true,
+          "divider": false
+        }
+      },
+      "1540486236341": {
+        "type": "logo-list",
+        "blocks": {
+          "1540486236341-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon6.png",
+              "link": ""
+            }
+          },
+          "1540488700527": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon5.png",
+              "link": ""
+            }
+          },
+          "1540488713360": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon4.png",
+              "link": ""
+            }
+          },
+          "1540488724482": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon3.png",
+              "link": ""
+            }
+          },
+          "1540488736743": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon2.png",
+              "link": ""
+            }
+          },
+          "1540488758960": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/produced-in-america.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1540486236341-3",
+          "1540488700527",
+          "1540488713360",
+          "1540488724482",
+          "1540488736743",
+          "1540488758960"
+        ],
+        "settings": {
+          "title": "",
+          "logo_opacity": 100,
+          "divider": false
+        }
+      },
+      "1540490257847": {
+        "type": "text-columns",
+        "blocks": {
+          "1540490257847-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/aloe_0ba65cb7-9865-4eda-92d9-1a3da0222d1c.png",
+              "title": "ALOE VERA",
+              "text": "<p>Aloe vera aids digestion and supports the liver in eliminating toxins. Natural Source: Aloe Plant</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1540490257847-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/gotu_2051f1d1-ee63-4723-9b59-d9c7c9d5fe1d.png",
+              "title": "GOTU KOLA",
+              "text": "<p>Gotu kola helps enhance mental clarity by helping to eliminate mental fog. Natural Source: Plant native to Asia</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1540490257847-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/greentea_47a361b2-846a-464d-8d10-416cca6c3046.png",
+              "title": "GREEN TEA EXTRACT",
+              "text": "<p>Green tea helps support the liver in neutralizing toxins.  It also helps soothe occasional nausea and helps maintain blood and oxygen flow. Natural Source: Plant native to East Asia</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1540490890958": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/milkthistle_28e9a0ef-da35-42b5-a2b5-1a8a457e5d1c.png",
+              "title": "MILK THISTLE",
+              "text": "<p>Milk thistle supports overall liver health and supports the body in processing toxins.  It also helps relieve occasional indigestion. Natural Source: Plant native to Europe and Asia</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1540490973482": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/potassium_d88db6b6-7eac-4ac6-a8f7-7461d0fe6439.png",
+              "title": "ELECTROLYTES",
+              "text": "<p>Potassium is an electrolyte that helps balance the amount of water in your body. It also helps support proper nerve and muscle function. Natural Source: Bananas</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1540491104481": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/b12_ac71d925-c90b-4abc-bb36-5f4d3199d9ff.png",
+              "title": "B VITAMINS",
+              "text": "<p>B vitamins help increase energy levels and help restore mental alertness when fatigued. Natural Source: Avocado, okra, and more</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          }
+        },
+        "block_order": [
+          "1540490257847-0",
+          "1540490257847-1",
+          "1540490257847-2",
+          "1540490890958",
+          "1540490973482",
+          "1540491104481"
+        ],
+        "disabled": true,
+        "settings": {
+          "title": "DRINKADE INGREDIENTS",
+          "align_text": "center",
+          "divider": false
+        }
+      },
+      "1540850814356": {
+        "type": "text-columns",
+        "blocks": {
+          "1540850814356-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/STEP-1.jpg",
+              "title": "Step 1",
+              "text": "<p>Drink one 3.4oz bottle.</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1540850814356-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/STEP-2.jpg",
+              "title": "Step 2",
+              "text": "<p>Enjoy responsibly.</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1540850814356-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/HOW-TO-USE-3.jpg",
+              "title": "Step 3",
+              "text": "<p>Feel great the next day!</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          }
+        },
+        "block_order": [
+          "1540850814356-0",
+          "1540850814356-1",
+          "1540850814356-2"
+        ],
+        "settings": {
+          "title": "HOW TO USE DRINKADE",
+          "align_text": "center",
+          "divider": false
+        }
+      },
+      "1540850879994": {
+        "type": "logo-list",
+        "blocks": {
+          "1540850879994-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LOGOS-AMAZON.jpg",
+              "link": ""
+            }
+          },
+          "1540850879994-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LOGOS-BEVMO.jpg",
+              "link": ""
+            }
+          },
+          "1540850879994-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LOGOS-GNC.jpg",
+              "link": ""
+            }
+          },
+          "1541099641504": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LOGOS-KROGER.jpg",
+              "link": ""
+            }
+          },
+          "1540850879994-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LOGOS-CIRCLE-K.jpg",
+              "link": ""
+            }
+          },
+          "1541188699461": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LOGOS-SHELL.jpg",
+              "link": ""
+            }
+          },
+          "1541188714083": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LOGOS-VITAMIN.jpg",
+              "link": ""
+            }
+          },
+          "1541099649933": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LOGOS-RALPHS.jpg",
+              "link": ""
+            }
+          },
+          "1541188731255": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LOGOS-VONS.jpg",
+              "link": ""
+            }
+          },
+          "1541099647228": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LOGOS-MGM.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1540850879994-0",
+          "1540850879994-1",
+          "1540850879994-3",
+          "1541099641504",
+          "1540850879994-2",
+          "1541188699461",
+          "1541188714083",
+          "1541099649933",
+          "1541188731255",
+          "1541099647228"
+        ],
+        "disabled": true,
+        "settings": {
+          "title": "FIND US AT",
+          "logo_opacity": 76,
+          "divider": false
+        }
+      },
+      "1541693547695": {
+        "type": "text-and-image",
+        "disabled": true,
+        "settings": {
+          "image": "shopify://shop_images/DA_C_FG-CIRCLE.png",
+          "image_width": 430,
+          "subtitle": "",
+          "title": "THE PERFECT COMPANION WHEN DRINKING",
+          "text": "<p>DrinkAde helps support the body in neutralizing toxins, rehydration, and restoring vital nutrients. Take during or after a night out celebrating, and you&#x27;ll feel great the morning after!</p>",
+          "button_label": "SHOP NOW",
+          "button_link": "shopify://collections/all",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "1542150889508": {
+        "type": "featured-video",
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "video_url": "https://vimeo.com/296114444",
+          "divider": false
+        }
+      },
+      "1542167063064": {
+        "type": "yotpo-carousel",
+        "settings": {}
+      },
+      "1543867270500": {
+        "type": "newsletter",
+        "disabled": true,
+        "settings": {
+          "title": "JOIN OUR MAILING LIST TO RECEIVE DISCOUNTS & SPECIAL OFFERS",
+          "text": "<p>(1-2 emails per month – opt out at any time!)</p>",
+          "color_background": "#cc1a43",
+          "color_text": "#ffffff"
+        }
+      },
+      "1543867991728": {
+        "type": "logo-list",
+        "blocks": {
+          "1543867991728-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/GDLA2.jpg",
+              "link": "https://youtu.be/PY_8MrLwXM8"
+            }
+          },
+          "1544033518534": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/NYP_374d3b26-2eba-4a61-8976-b21e01faee22.png",
+              "link": ""
+            }
+          },
+          "1543867991728-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/MENSHEALTH_7c9f578b-cad5-45dd-a8de-6bec4f92ab9f.png",
+              "link": ""
+            }
+          },
+          "1543867991728-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/FORBES_3af5aec0-afc7-4179-875e-5a3115aff228.png",
+              "link": ""
+            }
+          },
+          "1543867991728-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/BEVNET_39c33523-1855-490d-a7e7-41f8d37d73eb.png",
+              "link": ""
+            }
+          },
+          "1544821597888": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/THEDOCTORS.jpg",
+              "link": ""
+            }
+          },
+          "1544821573636": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/LATIMES.jpg",
+              "link": ""
+            }
+          },
+          "1544821608728": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/US_fcb0095b-0294-47a5-ad0e-587c22737679.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1543867991728-2",
+          "1544033518534",
+          "1543867991728-3",
+          "1543867991728-1",
+          "1543867991728-0",
+          "1544821597888",
+          "1544821573636",
+          "1544821608728"
+        ],
+        "settings": {
+          "title": "AS SEEN IN",
+          "logo_opacity": 100,
+          "divider": false
+        }
+      },
+      "collection-template-shop": {
+        "type": "collection-template-shop",
+        "blocks": {
+          "1544669877219": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/DRINKADE-FLAVORS-PREVENTION_4470029d-7b5a-448e-8eff-c0bf2b884992.jpg",
+              "title": "PREVENTION",
+              "text": "<p>Drink a bottle of caffeine-free, limeade-flavored DrinkAde Prevention before you head out and enjoy the party without paying the price. It&rsquo;s filled with electrolytes, antioxidants, nutrients, and minerals that help you keep it real and let you take back your tomorrow.</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#90151c",
+              "button_weight": "bold"
+            }
+          },
+          "1544669967566": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/DRINKADE-FLAVORS-BOOST_40d0e05d-07cd-48f2-a028-954a491edbf5.jpg",
+              "title": "BOOST",
+              "text": "<p>Berry-flavored DrinkAde&nbsp;Boost contains extra B vitamins and natural caffeine, along with all the ingredients of Prevention. It is formulated to help neutralize toxins, restore nutrients replenish and rehydrate.&nbsp;It's perfect for an extra boost of energy the morning after a late night out.</p>\n<p></p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#090ed7",
+              "button_weight": "bold"
+            }
+          }
+        },
+        "block_order": [
+          "1544669877219",
+          "1544669967566"
+        ],
+        "settings": {
+          "hero_text": "in",
+          "per_row": 4,
+          "collection_image_enable": true,
+          "collection_tags_style": "none",
+          "collection_sort_enable": false,
+          "title": "CHOOSE BEFORE OR AFTER",
+          "align_text": "center",
+          "divider": false
+        }
+      },
+      "logo-list": {
+        "type": "logo-list",
+        "blocks": {
+          "1544670803892": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon6_180x_1.png",
+              "link": ""
+            }
+          },
+          "1544670834400": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon5_180x_1.png",
+              "link": ""
+            }
+          },
+          "1544670845060": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon4_180x_1.png",
+              "link": ""
+            }
+          },
+          "1544670854764": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon3_180x_1.png",
+              "link": ""
+            }
+          },
+          "1544670868246": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon2_180x_2.png",
+              "link": ""
+            }
+          },
+          "1544670873333": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/produced-in-america_180x_1.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1544670803892",
+          "1544670834400",
+          "1544670845060",
+          "1544670854764",
+          "1544670868246",
+          "1544670873333"
+        ],
+        "settings": {
+          "title": "",
+          "logo_opacity": 76,
+          "divider": false
+        }
+      },
+      "where-to-buy": {
+        "type": "where-to-buy",
+        "blocks": {
+          "1587036407250": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-cvs.png"
+            }
+          },
+          "1545361738542": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-bevmo.png"
+            }
+          },
+          "1587036448261": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-ampm_7ac95e87-b563-4dfc-aec5-d6492781b749.png"
+            }
+          },
+          "1545362123456": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-ralphs.png"
+            }
+          },
+          "1545362135913": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-gnc.png"
+            }
+          },
+          "1545362148653": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-vitaminshoppe.png"
+            }
+          },
+          "1545362162211": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-shell.png"
+            }
+          },
+          "1545362172169": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-albertsons.png"
+            }
+          },
+          "1545362180288": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-binnys.png"
+            }
+          },
+          "1545362189653": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-randalls.png"
+            }
+          },
+          "1545362259124": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/image001.jpg"
+            }
+          },
+          "1545362785898": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-tomthumb.png"
+            }
+          },
+          "1545362800282": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/gg-and-fossil.jpg"
+            }
+          },
+          "1545362825858": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-lees.png"
+            }
+          },
+          "1545362841488": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-abc.png"
+            }
+          },
+          "1545362852310": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-specs.png"
+            }
+          },
+          "1545362812551": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-smiths.png"
+            }
+          },
+          "1545363008000": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-hardrock.png"
+            }
+          },
+          "1545363019413": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-mgm.png"
+            }
+          },
+          "1545363034051": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-wynn.png"
+            }
+          },
+          "1545363044099": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-caesars.png"
+            }
+          },
+          "1545363058466": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-terrible.png"
+            }
+          },
+          "1545363084692": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/hyvee.jpg"
+            }
+          },
+          "1545363223077": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-cosmo.png"
+            }
+          },
+          "1545363232552": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-stations.png"
+            }
+          },
+          "1545363246466": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-rebel.png"
+            }
+          },
+          "1545363258386": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-kroger.png"
+            }
+          },
+          "1545363267232": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-vons.png"
+            }
+          },
+          "1545363284753": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/pick-n-save.jpg"
+            }
+          },
+          "1545363362336": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/frys.jpg"
+            }
+          },
+          "1545363470622": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/distro-greenvalley.png"
+            }
+          },
+          "627c48ef-4244-4d49-9125-a25bd7de3d27": {
+            "type": "text",
+            "settings": {
+              "logo_image": "shopify://shop_images/Festival_Foods_logo_f049f5d6-5f12-4c0c-90e0-90d8075990de.png"
+            }
+          }
+        },
+        "block_order": [
+          "1587036407250",
+          "1545361738542",
+          "1587036448261",
+          "1545362123456",
+          "1545362135913",
+          "1545362148653",
+          "1545362162211",
+          "1545362172169",
+          "1545362180288",
+          "1545362189653",
+          "1545362259124",
+          "1545362785898",
+          "1545362800282",
+          "1545362825858",
+          "1545362841488",
+          "1545362852310",
+          "1545362812551",
+          "1545363008000",
+          "1545363019413",
+          "1545363034051",
+          "1545363044099",
+          "1545363058466",
+          "1545363084692",
+          "1545363223077",
+          "1545363232552",
+          "1545363246466",
+          "1545363258386",
+          "1545363267232",
+          "1545363284753",
+          "1545363362336",
+          "1545363470622",
+          "627c48ef-4244-4d49-9125-a25bd7de3d27"
+        ],
+        "settings": {}
+      },
+      "text-columns": {
+        "type": "text-columns",
+        "blocks": {
+          "1545414525668": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/1_540x_4e5502c0-0fcc-4ad4-ad0a-1bcd02d1bcaf.png",
+              "title": "NEUTRALIZES <br>TOXINS",
+              "text": "<p>In order to understand how DrinkAde works, we must first understand what happens in our body when we drink. The alcohol causes our liver to produce a toxin called acetaldehyde.&nbsp;</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1545414557431": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/2_540x_42dc5e17-a317-41e0-af63-319c9eb21db8.png",
+              "title": "RESTORES <br>VITAL NUTRIENTS",
+              "text": "<p>DrinkAde's&nbsp; proprietary formula helps neutralize these acetaldehyde toxins making them easy for the body to process and diffuse. Once this process takes place, the severe symptoms that can happen after drinking are averted.&nbsp;</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1545414588032": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/3_540x_7300e5f2-3d13-4c1d-8d4b-ecac467322e2.png",
+              "title": "REHYDRATES <br>THE BODY",
+              "text": "<p>Our proprietary blend of vitamins, amino acids, nutrients and minerals also hydrate the body and restore vital nutrients, further helping prevent or recover from a night out celebrating.</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          }
+        },
+        "block_order": [
+          "1545414525668",
+          "1545414557431",
+          "1545414588032"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "center",
+          "divider": false
+        }
+      },
+      "yotpo-carousel": {
+        "type": "yotpo-carousel",
+        "settings": {}
+      },
+      "how-to-use": {
+        "type": "how-to-use",
+        "blocks": {
+          "1545450366006": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/STEP-1.jpg",
+              "title": "Step 1",
+              "text": "<p>Drink&nbsp;one 3.4oz&nbsp;bottle.</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1545450396366": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/rawpixel-752533-unsplash_540x_61fa9363-6445-4ea5-95ef-6497d63eee5f.jpg",
+              "title": "Step 2",
+              "text": "<p>Enjoy&nbsp;responsibly.</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          },
+          "1545450422207": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify://shop_images/HOW-TO-USE-3_540x_d913eb1f-301b-4fc7-96ab-709ba23a491b.jpg",
+              "title": "Step 3",
+              "text": "<p>Feel great the next day!</p>",
+              "button_label": "",
+              "button_link": "",
+              "button_size": 14,
+              "button_background_color": "#111111",
+              "button_weight": "normal"
+            }
+          }
+        },
+        "block_order": [
+          "1545450366006",
+          "1545450396366",
+          "1545450422207"
+        ],
+        "settings": {
+          "title": "HOW TO USE DRINKADE",
+          "align_text": "center",
+          "divider": false
+        }
+      },
+      "featured-video": {
+        "type": "featured-video",
+        "settings": {
+          "title": "",
+          "video_url": "https://vimeo.com/296114444",
+          "divider": false
+        }
+      },
+      "try-button": {
+        "type": "try-button",
+        "settings": {
+          "try_button_text": "TRY IT NOW!",
+          "try_button_url": "shopify://collections/shop"
+        }
+      },
+      "how-intro": {
+        "type": "how-intro",
+        "settings": {
+          "hero_description": "DrinkAde is a healthy blend of vitamins engineered to help you celebrate and feel great the next day. It is the best tasting and most effective way to avoid bad mornings after drinking - or simply get a healthy energy electrolyte and multivitamin boost."
+        }
+      },
+      "ingredients-image": {
+        "type": "ingredients-image",
+        "settings": {
+          "whats_inside_desktop": "shopify://shop_images/HOW-IT-WORKS-INGREDIENTS.jpg",
+          "whats_inside_mobile": "shopify://shop_images/what_s-inside-mobile_e11c03a2-3eb9-4be5-a897-ad60b818b3e5.jpg"
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "title": "JOIN OUR MAILING LIST TO RECEIVE DISCOUNTS & SPECIAL OFFERS",
+          "text": "<p>(1-2 emails per month – opt out at any time!)</p>",
+          "color_background": "#8a2a2b",
+          "color_text": "#ffffff"
+        }
+      },
+      "collection-template-prevention": {
+        "type": "collection-template-prevention",
+        "blocks": {
+          "1548181488035": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon6_180x_fff25332-8c4f-4a63-910e-6a17583f3d2e.png",
+              "link": ""
+            }
+          },
+          "1548181507270": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon5_180x_1b0af625-469a-4e2d-bb71-0eb599e24d59.png",
+              "link": ""
+            }
+          },
+          "1548181514906": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon4_180x_de12fc21-6b07-466a-902e-26f378edabf6.png",
+              "link": ""
+            }
+          },
+          "1548181524169": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon3_180x_89ca3f9f-9f28-4222-9269-3f3674df6921.png",
+              "link": ""
+            }
+          },
+          "1548181533674": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon2_180x_94773ea4-7198-46b8-971b-4b87a12f86f1.png",
+              "link": ""
+            }
+          },
+          "1548181540497": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/produced-in-america_180x_718a0368-9ef0-4ac5-b247-130faadd7ab7.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1548181488035",
+          "1548181507270",
+          "1548181514906",
+          "1548181524169",
+          "1548181533674",
+          "1548181540497"
+        ],
+        "settings": {
+          "hero_text": "in",
+          "per_row": 4,
+          "collection_image_enable": true,
+          "collection_tags_style": "none",
+          "collection_sort_enable": false,
+          "banner_hero_text": "SUBSCRIBE AND SAVE!",
+          "background_color": "#f9cf56",
+          "left_image": "shopify://shop_images/calendar_icon.png",
+          "left_text": "<p>FLEXIBLE DELIVERY SCHEDULE</p>",
+          "middle_image": "shopify://shop_images/dollar.png",
+          "middle_text": "<p>LOCK IN</p>\n<p><strong>20% SAVINGS</strong></p>",
+          "right_image": "shopify://shop_images/no_money.png",
+          "right_text": "<p>CANCEL ANYTIME AFTER 2nd DELIVERY</p>",
+          "collection_info_img": "shopify://shop_images/DRINKADE-FLAVORS-PREVENTION_1080x_9611d902-7957-4f3d-a3a3-9f3c7651ce99.jpg",
+          "collection_info_text": "<p>Drink a bottle of caffeine-free, limeade-flavored DrinkAde Prevention before you head out and enjoy the party without paying the price. It&rsquo;s filled with electrolytes, antioxidants, nutrients, and minerals that help you keep it real and let you take back your tomorrow.</p>\n<p></p>"
+        }
+      },
+      "collection-template-boost": {
+        "type": "collection-template-boost",
+        "blocks": {
+          "1548183122491": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon6_180x_30b592e6-5f0b-436e-88e7-9f46f56df647.png",
+              "link": ""
+            }
+          },
+          "1548183129399": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon5_180x_53b6f496-ac61-4130-a40e-de4504d61898.png",
+              "link": ""
+            }
+          },
+          "1548183138384": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon4_180x_58a167d5-0b76-4031-984a-bc3ddcd9b291.png",
+              "link": ""
+            }
+          },
+          "1548183143503": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon3_180x_c79d50bc-4480-4cb8-9de1-ec79453d09bc.png",
+              "link": ""
+            }
+          },
+          "1548183152195": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/icon2_180x_9e53de7f-4fde-43f2-8760-c560619a85b4.png",
+              "link": ""
+            }
+          },
+          "1548183158465": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify://shop_images/produced-in-america_180x_cc8d819a-8e9c-42d6-ba1b-8cefc312ad07.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1548183122491",
+          "1548183129399",
+          "1548183138384",
+          "1548183143503",
+          "1548183152195",
+          "1548183158465"
+        ],
+        "settings": {
+          "hero_text": "in",
+          "per_row": 4,
+          "collection_image_enable": true,
+          "collection_tags_style": "none",
+          "collection_sort_enable": false,
+          "banner_hero_text": "SUBSCRIBE AND SAVE!",
+          "background_color": "#f9cf56",
+          "left_image": "shopify://shop_images/calendar_icon.png",
+          "left_text": "<p>FLEXIBLE DELIVERY SCHEDULE</p>",
+          "middle_image": "shopify://shop_images/dollar.png",
+          "middle_text": "<p>LOCK IN</p>\n<p><strong>20% SAVINGS</strong></p>",
+          "right_image": "shopify://shop_images/no_money.png",
+          "right_text": "<p>CANCEL ANYTIME AFTER 2nd DELIVERY</p>",
+          "collection_info_img": "shopify://shop_images/DRINKADE-FLAVORS-BOOST_1080x_901b0692-cb8a-447d-a00d-edebfd8b5d4d.jpg",
+          "collection_info_text": "<p>Berry-flavored DrinkAde Boost contains extra B vitamins and natural caffeine, along with all the ingredients of Prevention. It is formulated to help neutralize toxins, restore nutrients replenish and rehydrate. It's perfect for an extra boost of energy the morning after a late night out.&nbsp;</p>\n<p></p>"
+        }
+      },
+      "1540486304667": {
+        "type": "slideshow",
+        "blocks": {
+          "1585175132594": {
+            "type": "image",
+            "settings": {
+              "title": "Hydrate & Feel Great with DrinkAde",
+              "title_size": 53,
+              "subheading": "sfsdf",
+              "link": "shopify://collections/all",
+              "link_text": "BUY NOW",
+              "text_align": "vertical-bottom horizontal-center",
+              "image": "shopify://shop_images/Frame_17.png",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "1585175132594"
+        ],
+        "settings": {
+          "section_height": "natural",
+          "mobile_height": "auto",
+          "style": "dots",
+          "autoplay": true,
+          "autoplay_speed": 5
+        }
+      },
+      "1595367178150": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "DrinkAde Prevention",
+          "home_featured_products": "prevention",
+          "per_row": 4,
+          "rows": 1,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "1595367514726": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "DrinkAde Boost",
+          "home_featured_products": "boost",
+          "per_row": 4,
+          "rows": 1,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "title_enable": true,
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": "3"
+        }
+      },
+      "featured-collection1": {
+        "type": "featured-collection1",
+        "settings": {
+          "title": "",
+          "home_featured_products": "prevention",
+          "per_row": 4,
+          "rows": 1,
+          "view_all": false,
+          "divider": false
+        }
+      },
+      "featured-collection2": {
+        "type": "featured-collection2",
+        "settings": {
+          "title": "",
+          "home_featured_products": "boost",
+          "per_row": 4,
+          "rows": 1,
+          "view_all": false,
+          "divider": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1540486304667",
+      "1541693547695",
+      "1498163293234",
+      "1499790782828",
+      "1540850814356",
+      "1595367178150",
+      "1595367514726",
+      "1540486236341",
+      "1543867991728",
+      "1540486219086",
+      "1542167063064",
+      "1542150889508",
+      "1498501481980",
+      "1540490257847",
+      "1540850879994",
+      "1543867270500"
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "5557296251606798448": {
+        "type": "shopify://apps/bold-subscriptions/blocks/bsub-embed/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+        "disabled": false,
+        "settings": {}
+      },
+      "10840395464443086010": {
+        "type": "shopify://apps/alia/blocks/customer-app-frame/51f1d398-3e41-44da-b81e-defd5804b292",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Classic": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#fff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_footer": "#111111",
+      "color_footer_text": "#fff",
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 62,
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_small_image_bg": "#fff",
+      "color_large_image_bg": "#111111",
+      "type_header_spacing": "0",
+      "type_header_font_family": "itc_avant_garde_gothic_n7",
+      "type_header_base_size": 35,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "4px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "default_currency": "USD",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_sale_tag": "#990000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "header_search_enable": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_tags_style": "inline",
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true,
+            "related_enable": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000",
+            "color_overlay_opacity": 30,
+            "section_height": 550
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "alignment": "center",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "align_text": "left",
+            "divider": false
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-image-row": {
+              "type": "image-row",
+              "settings": {}
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {}
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "product-hero-video": {
+              "type": "hero-video",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "product-image-row",
+            "product-text-and-image",
+            "product-background-image-text",
+            "product-text-columns",
+            "product-hero-video"
+          ],
+          "settings": {}
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-fading-images": {
+              "type": "fading-images",
+              "settings": {}
+            },
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "title": "",
+                "align_text": "center",
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "page-fading-images",
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    },
+    "Elegant": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_borders": "#e8e8e1",
+      "color_button": "#353956",
+      "color_button_text": "#fff",
+      "color_header": "#ffffff",
+      "color_header_text": "#040404",
+      "color_footer": "#17172c",
+      "color_footer_text": "#fff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#17172c",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#353956",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#17172c",
+      "color_image_2": "#17172c",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#17172c",
+      "color_image_1_opacity": 32,
+      "color_small_image_bg": "#f4f4f4",
+      "color_large_image_bg": "#17172c",
+      "type_header_spacing": "0",
+      "type_header_font_family": "bauer_bodoni_n7",
+      "type_header_base_size": 42,
+      "type_header_line_height": 1.3,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "default_currency": "USD",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_sale_tag": "#990000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "header_search_enable": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_tags_style": "inline",
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true,
+            "related_enable": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000",
+            "color_overlay_opacity": 30,
+            "section_height": 550
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "alignment": "center",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "align_text": "left",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    },
+    "Minimal": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_borders": "#f0f1f3",
+      "color_button": "#111111",
+      "color_button_text": "#fff",
+      "color_header": "#fff",
+      "color_header_text": "#000",
+      "color_footer": "#f0f1f3",
+      "color_footer_text": "#2c2c2c",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#f0f1f3",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#aeb1b8",
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 26,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#dedfe1",
+      "type_header_spacing": "75",
+      "type_header_font_family": "din_next_n7",
+      "type_header_base_size": 34,
+      "type_header_line_height": 1.3,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "din_next_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "2px",
+      "icon_linecaps": "round",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slide-reveal-down",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "fade-in",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "default_currency": "USD",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_sale_tag": "#990000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": false,
+            "sticky_collection": false,
+            "header_search_enable": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_tags_style": "inline",
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true,
+            "related_enable": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000",
+            "color_overlay_opacity": 30,
+            "section_height": 550
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "alignment": "center",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "align_text": "left",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    }
+  }
+}
