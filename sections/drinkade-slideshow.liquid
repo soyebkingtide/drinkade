@@ -1,27 +1,27 @@
 <div
   data-section-id="{{ section.id }}"
-  data-section-type="drinkade-slideshow-section"
+  data-section-type="slideshow-section"
   data-align-top="true">
 
   {% if section.blocks.size > 0 %}
     <div class="slideshow-wrapper">
       {% if section.settings.autoplay %}
         <style>
-          .drinkade-slideshow__slide.slick-active:after {
+          .slideshow__slide.slick-active:after {
             width: 100%;
             transition-delay: 1500ms;
             transition-duration: {{ section.settings.autoplay_speed | times: 1000 | minus: 1500 }}ms;
           }
         </style>
 
-        <button type="button" class="visually-hidden drinkade-slideshow__pause" data-id="{{ section.id }}" aria-live="polite">
-          <span class="drinkade-slideshow__pause-stop">
+        <button type="button" class="visually-hidden slideshow__pause" data-id="{{ section.id }}" aria-live="polite">
+          <span class="slideshow__pause-stop">
             {% include 'icon-pause' %}
-            <span class="icon__fallback-text">{{ 'sections.drinkade_slideshow.pause_slideshow' | t }}</span>
+            <span class="icon__fallback-text">{{ 'sections.slideshow.pause_slideshow' | t }}</span>
           </span>
-          <span class="drinkade-slideshow__pause-play">
+          <span class="slideshow__pause-play">
             {% include 'icon-play' %}
-            <span class="icon__fallback-text">{{ 'sections.drinkade_slideshow.play_slideshow' | t }}</span>
+            <span class="icon__fallback-text">{{ 'sections.slideshow.play_slideshow' | t }}</span>
           </span>
         </button>
       {% endif %}
@@ -41,7 +41,7 @@
 
       {% if natural_height %}
         <style>
-          .drinkade-hero-natural--{{ section.id }} {
+          .hero-natural--{{ section.id }} {
             height: 0;
             padding-bottom: {{ natural_height_ratio }};
           }
@@ -49,9 +49,9 @@
       {% endif %}
 
       {% if natural_height %}
-        <div class="drinkade-hero-natural--{{ section.id }}">
+        <div class="hero-natural--{{ section.id }}">
       {% endif %}
-        <div id="DrinkadeSlideshow-{{ section.id }}"
+        <div id="Slideshow-{{ section.id }}"
           class="hero hero--{{ section.settings.section_height }} hero--{{ section.id }} hero--mobile--{{ section.settings.mobile_height }} loading loading--delayed"
           {% if natural_height %}
             data-natural="true"
@@ -70,21 +70,21 @@
 
             <div
               {{ block.shopify_attributes }}
-              class="drinkade-slideshow__slide drinkade-slideshow__slide--{{ block.id }}"
+              class="slideshow__slide slideshow__slide--{{ block.id }}"
               data-id="{{ block.id }}">
 
               <style>
-              .drinkade-slideshow__slide--{{ block.id }} .hero__title {
+              .slideshow__slide--{{ block.id }} .hero__title {
                 font-size: {{ block.settings.title_size | times: 0.5 }}px;
               }
-              .drinkade-slideshow__slide--{{ block.id }} .hero__subtitle {
+              .slideshow__slide--{{ block.id }} .hero__subtitle {
                 font-size: {{ block.settings.subtitle_size | times: 0.5 }}px;
               }
               @media only screen and (min-width: 590px) {
-                .drinkade-slideshow__slide--{{ block.id }} .hero__title {
+                .slideshow__slide--{{ block.id }} .hero__title {
                   font-size: {{ block.settings.title_size }}px;
                 }
-                .drinkade-slideshow__slide--{{ block.id }} .hero__subtitle {
+                .slideshow__slide--{{ block.id }} .hero__subtitle {
                   font-size: {{ block.settings.subtitle_size }}px;
                 }
               }
@@ -201,7 +201,7 @@
 {% schema %}
   {
     "name": "Drinkade Slideshow",
-    "class": "index-section--drinkade-hero",
+    "class": "index-section--hero",
     "max_blocks": 5,
     "settings": [
       {
@@ -301,7 +301,7 @@
         "label": "Change images every",
         "default": 7,
         "min": 5,
-        "max": 10,
+        "max": 105,
         "step": 1,
         "unit": "s"
       }
