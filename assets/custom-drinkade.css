@@ -17,5 +17,6 @@
 }
 
 .font-bigger {
-  font-size: 400px;
-} /*# sourceMappingURL=custom-drinkade.css.map */
+  font-size: 400px !important;
+  line-height: normal;
+}/*# sourceMappingURL=custom-drinkade.css.map */
