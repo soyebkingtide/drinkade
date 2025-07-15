@@ -78,7 +78,13 @@
 		{%- else -%}
 			{% include '__original-css-theme' %}
 		{%- endif -%}
+
+    
   {{ 'theme.css' | asset_url | stylesheet_tag }}
+
+  {{ 'custom-drinkade.css' | asset_url | stylesheet_tag }}
+
+  
 
 {%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}
 {%- assign time_now = 'now' | date: '%s' %}
