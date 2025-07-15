@@ -1736,6 +1736,7 @@
         "block_order": [
           "1585175132594"
         ],
+        "disabled": true,
         "settings": {
           "section_height": "natural",
           "mobile_height": "auto",
@@ -1796,6 +1797,38 @@
           "view_all": false,
           "divider": false
         }
+      },
+      "drinkade_slideshow_49Ni7z": {
+        "type": "drinkade-slideshow",
+        "blocks": {
+          "image_BUFX8d": {
+            "type": "image",
+            "settings": {
+              "title": "Discover Drinkaded",
+              "title_size": 80,
+              "subtitle": "Boost Your Energy",
+              "subtitle_size": 60,
+              "paragraph": "Experience the ultimate hydration and energy boost with Drinkade.",
+              "link": "",
+              "link_text": "Shop Now",
+              "small_text": "Available in multiple flavors.",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify://shop_images/Frame_17.png",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "image_BUFX8d"
+        ],
+        "name": "Drinkade Slideshow",
+        "settings": {
+          "section_height": "650px",
+          "mobile_height": "auto",
+          "style": "minimal",
+          "autoplay": true,
+          "autoplay_speed": 5
+        }
       }
     },
     "content_for_index": [
@@ -1814,7 +1847,8 @@
       "1498501481980",
       "1540490257847",
       "1540850879994",
-      "1543867270500"
+      "1543867270500",
+      "drinkade_slideshow_49Ni7z"
     ],
     "blocks": {
       "855628211100114053": {
