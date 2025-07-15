@@ -1804,14 +1804,14 @@
           "image_BUFX8d": {
             "type": "image",
             "settings": {
-              "title": "Discover Drinkaded",
+              "title": "YOU COULD WIN AN ALL-INCLUSIVE VEGAS TRIP +",
               "title_size": 80,
-              "subtitle": "Boost Your Energy",
+              "subtitle": "$50,000",
               "subtitle_size": 60,
-              "paragraph": "Experience the ultimate hydration and energy boost with Drinkade.",
+              "paragraph": "Or skip the trip and take $100,000 in cash. Every dollar spent is 1 entry.",
               "link": "",
               "link_text": "Shop Now",
-              "small_text": "Available in multiple flavors.",
+              "small_text": "NO PURCHASE NECESSARY. Ends 8/31/25. Visit Official Rules sharedsweeps.com/rules for details. Sponsored By Shared Sweeps.",
               "text_align": "vertical-center horizontal-center",
               "image": "shopify://shop_images/Frame_17.png",
               "focal_point": "center center"
@@ -1834,6 +1834,7 @@
     "content_for_index": [
       "1540486304667",
       "1541693547695",
+      "drinkade_slideshow_49Ni7z",
       "1498163293234",
       "1499790782828",
       "1540850814356",
@@ -1847,8 +1848,7 @@
       "1498501481980",
       "1540490257847",
       "1540850879994",
-      "1543867270500",
-      "drinkade_slideshow_49Ni7z"
+      "1543867270500"
     ],
     "blocks": {
       "855628211100114053": {
