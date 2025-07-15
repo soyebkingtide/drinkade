@@ -3797,7 +3797,7 @@ symbol.icon:not(.icon--full-color) rect {
 /*================ Module | Footer ================*/
 .site-footer {
   padding-bottom: 40px;
-  background-color: #6d6d6d;
+  background-color: #90151c;
   color: #fff;
 }
 @media only screen and (min-width: 590px) {
@@ -3895,7 +3895,7 @@ ul + .footer__copyright {
 
 .footer__newsletter-input {
   padding-left: 45px;
-  background-color: #6d6d6d;
+  background-color: #90151c;
   color: #fff;
   max-width: 300px;
   width: 100%;
@@ -8644,7 +8644,7 @@ input[type=image] {
   z-index: 29;
   transition: height 0.5s cubic-bezier(0, 0, 0.38, 1);
   overflow: hidden;
-  background-color: #6d6d6d;
+  background-color: #90151c;
   color: #fff;
 }
 
