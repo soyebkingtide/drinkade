@@ -64,5 +64,15 @@
 
 .font-bigger {
   font-size: 400px !important;
+  line-height: 378px;
   line-height: normal;
+}
+
+.hero__paragraph {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  strong {
+    font-size: 26px;
+    font-weight: bold;
+  }
 }
