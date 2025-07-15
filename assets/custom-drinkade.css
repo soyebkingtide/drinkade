@@ -80,9 +80,8 @@
 
 .hero__paragraph {
   font-family: "DM Sans", sans-serif;
-  font-size: 22px;
 }
 .hero__paragraph strong {
-  font-size: 26px;
+  font-size: 110%;
   font-weight: bold;
-}/*# sourceMappingURL=custom-drinkade.css.map */
+} /*# sourceMappingURL=custom-drinkade.css.map */
