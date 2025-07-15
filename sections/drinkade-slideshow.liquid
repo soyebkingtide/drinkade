@@ -147,7 +147,7 @@
                         <h3 class="h2 hero__subtitle font-bigger m-0">
                         
                           <div class="animation-cropper"><div class="animation-contents">
-                          {{ block.settings.subtitle | newline_to_br }}
+                          {{ block.settings.subtitle | escape }}
                           </div></div>
                         </h3>
                       {% endunless %}
