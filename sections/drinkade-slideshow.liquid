@@ -145,11 +145,7 @@
                       {% endunless %}
                       {% unless block.settings.subtitle == blank %}
                         <h3 class="h2 hero__subtitle font-bigger">
-                          {% if block.settings.subtitle_size > 60 %}
-                            <span class="hero__subtitle--large">{{ block.settings.subtitle | newline_to_br }}</span>
-                          {% else %}
-                            <span class="hero__subtitle--small">{{ block.settings.subtitle | newline_to_br }}</span>
-                          {% endif %}
+                        
                           <div class="animation-cropper"><div class="animation-contents">
                           {{ block.settings.subtitle | newline_to_br }}
                           </div></div>
