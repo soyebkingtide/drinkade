@@ -11,4 +11,11 @@
 .drinkade-slideshow .h5,
 .drinkade-slideshow .h6 {
   font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+
+.font-bigger {
+  font-size: 400px;
 } /*# sourceMappingURL=custom-drinkade.css.map */
