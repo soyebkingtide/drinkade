@@ -1823,7 +1823,7 @@
         ],
         "name": "Drinkade Slideshow",
         "settings": {
-          "section_height": "650px",
+          "section_height": "750px",
           "mobile_height": "auto",
           "style": "minimal",
           "autoplay": true,
