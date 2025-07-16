@@ -210,4 +210,8 @@
   margin-left: 50px !important;
   margin-right: 50px !important;
 }
+
+.hero__small-text small {
+  font-size: 0.6rem !important;
+}
 /*# sourceMappingURL=custom-drinkade.css.map */
