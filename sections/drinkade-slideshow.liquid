@@ -168,10 +168,7 @@
                       {% if block.settings.link_text != blank %}
                         <div class="hero__link">
                           <div class="animation-cropper"><div class="animation-contents">
-                            <a href="{{ block.settings.link }}" class="btn btn--small btn--inverse" style="color: {{ block.settings.link_text_color }};">
-                              {% if block.settings.link_text == blank %}
-                                {{ 'sections.slideshow.learn_more' | t }}
-                              {% else %}
+                            <a href="{{ block.settings.link }}" class="btn btn--small btn--inverse">
                               {{ block.settings.link_text }}
                             </a>
                           </div></div>
@@ -381,7 +378,7 @@
            {
         "type": "color",
         "id": "link_text_color",
-        "label": "button Color",
+        "label": "Background Color",
         "default": "#ffffff"
       },
           {
