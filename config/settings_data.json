@@ -1824,6 +1824,8 @@
         ],
         "name": "Drinkade Slideshow",
         "settings": {
+          "padding_top": 20,
+          "padding_bottom": 36,
           "section_height": "750px",
           "mobile_height": "auto",
           "style": "minimal",
