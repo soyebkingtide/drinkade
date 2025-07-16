@@ -145,8 +145,9 @@
 
 .hero__paragraph {
   font-family: "DM Sans", sans-serif;
-  font-size: 20px;
-
+  font-size: 32px;
+  max-width: 650px;
+  margin: auto;
   strong {
     font-size: 110%;
     font-weight: bold;
