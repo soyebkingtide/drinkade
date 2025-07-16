@@ -13,10 +13,15 @@
 {%- endstyle -%}
 
 
+
 <div
   data-section-id="{{ section.id }}"
   data-section-type="slideshow-section"
-  data-align-top="true">
+  data-align-top="true"
+  
+  class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}"
+  
+  >
 
   {% if section.blocks.size > 0 %}
     <div class="slideshow-wrapper">
