@@ -99,13 +99,7 @@
                 {%- assign link_slide = true -%}
               {% endif %}
 
-                  <img class="hero__image hero__image--{{ block.id }} lazyload"
-                    src="{{ block.settings.image | img_url: '300x' }}"
-                    data-src="{{ img_url }}"
-                    data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-                    data-sizes="auto"
-                    data-parent-fit="cover"
-                    alt="{{ block.settings.image.alt | escape }}">
+                 
 
               {% if link_slide %}
                 <a href="{{ block.settings.link }}" class="hero__slide-link">
