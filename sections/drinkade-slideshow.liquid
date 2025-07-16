@@ -99,7 +99,33 @@
                 {%- assign link_slide = true -%}
               {% endif %}
 
-                 
+              <div class="hero__image-wrapper{% unless hero_text %} hero__image-wrapper--no-overlay{% endunless %}">
+                {% if block.settings.image != blank %}
+                  <style>
+                    .hero__image--{{ block.id }} {
+                      object-position: {{ block.settings.focal_point }};
+                      font-family: "object-fit: cover; object-position: {{ block.settings.focal_point }};";
+                    }
+                  </style>
+
+                  {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                  <img class="hero__image hero__image--{{ block.id }} lazyload"
+                    src="{{ block.settings.image | img_url: '300x' }}"
+                    data-src="{{ img_url }}"
+                    data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                    data-sizes="auto"
+                    data-parent-fit="cover"
+                    alt="{{ block.settings.image.alt | escape }}">
+                  <noscript>
+                    <img class="hero__image hero__image--{{ block.id }}"
+                      src="{{ block.settings.image | img_url: '1400x' }}"
+                      alt="{{ block.settings.image.alt | escape }}">
+                  </noscript>
+                {% else %}
+                  {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+              </div>
 
               {% if link_slide %}
                 <a href="{{ block.settings.link }}" class="hero__slide-link">
