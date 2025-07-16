@@ -161,9 +161,8 @@
 }
 
 .font-bigger {
-  font-size: 400px !important;
-  line-height: 378px !important;
-  line-height: normal;
+  font-size: clamp(5rem, 8vw, 40rem); /* responsive */
+  line-height: 1.1; /* relative line height */
 }
 
 .hero__paragraph {
