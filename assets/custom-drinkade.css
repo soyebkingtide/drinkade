@@ -221,7 +221,7 @@
 }
 
 .btn {
-  display: flex;
+  display: inline-flex;
   min-width: 282px;
   height: 54px;
   padding: 20.769px;
