@@ -219,4 +219,15 @@
 .hero__media:before {
   display: none !important;
 }
+
+.btn {
+  display: flex;
+  min-width: 282px;
+  height: 54px;
+  padding: 20.769px;
+  justify-content: center;
+  align-items: center;
+  gap: 20.769px;
+  flex-shrink: 0;
+}
 /*# sourceMappingURL=custom-drinkade.css.map */
