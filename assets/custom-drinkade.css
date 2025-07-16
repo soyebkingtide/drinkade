@@ -214,4 +214,9 @@
 .hero__small-text small {
   font-size: 0.6rem !important;
 }
+
+.hero__image-wrapper:before,
+.hero__media:before {
+  display: none !important;
+}
 /*# sourceMappingURL=custom-drinkade.css.map */
