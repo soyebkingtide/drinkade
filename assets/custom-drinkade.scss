@@ -140,7 +140,7 @@
 
 .font-bigger {
   font-size: clamp(5rem, 20vw, 40rem) !important; /* responsive */
-  line-height: normal !important; /**/
+  line-height: 1.1; /**/
 }
 
 .hero__paragraph {
