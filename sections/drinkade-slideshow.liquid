@@ -168,21 +168,9 @@
                       {% if block.settings.link_text != blank %}
                         <div class="hero__link">
                           <div class="animation-cropper"><div class="animation-contents">
-
                             <a href="{{ block.settings.link }}" class="btn btn--small btn--inverse">
-                              {% if block.settings.link_text == blank and block.settings.link != blank %}
-                                {{ 'sections.slideshow.learn_more' | t }}
-                              {% elsif block.settings.link_text == blank and block.settings.link == blank %}
-                                {{ 'sections.slideshow.shop_now' | t }}
-                              {% endif %}
-                              {% if block.settings.link_text == blank %}
-                                {{ 'sections.slideshow.learn_more' | t }}
-                              {% else %}
                               {{ block.settings.link_text }}
                             </a>
-
-
-
                           </div></div>
                         </div>
                       {% endif %}
