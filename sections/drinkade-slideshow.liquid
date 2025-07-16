@@ -168,9 +168,9 @@
                       {% if block.settings.link_text != blank %}
                         <div class="hero__link">
                           <div class="animation-cropper"><div class="animation-contents">
-                            <a href="{{ block.settings.link }}" class="btn btn--small btn--inverse" style="background:{{block.settings.link_text_color }}">
+                            <a href="{{ block.settings.link }}" class="btn btn--small btn--inverse" style="background-color:{{block.settings.link_text_color }}">
                               {% if block.settings.link_text_color != blank %}
-                                <span class="btn__text" style="color: {{ block.settings.link_text_color }};">
+                                <span class="btn__text" >
                               {% else %}
                                 <span class="btn__text">
                               {% endif %}
