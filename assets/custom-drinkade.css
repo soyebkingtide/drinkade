@@ -173,7 +173,7 @@
   font-family: "DM Sans", sans-serif;
   font-size: 32px;
   max-width: 650px;
-  margin: auto;
+  margin: -32px auto auto;
 }
 .hero__paragraph strong {
   font-size: 110%;
