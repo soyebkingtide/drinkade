@@ -244,4 +244,8 @@
 .border-0 {
   border: 0 !important;
 }
+
+.mb-32 {
+  margin-bottom: 32px !important;
+}
 /*# sourceMappingURL=custom-drinkade.css.map */
