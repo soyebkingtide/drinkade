@@ -1897,6 +1897,7 @@
         ],
         "name": "Logo Scroller",
         "settings": {
+          "color_scheme": "",
           "padding_top": 40,
           "padding_bottom": 40
         }
@@ -1974,6 +1975,15 @@
           "padding_top": 40,
           "padding_bottom": 40
         }
+      },
+      "scroller_BTzHde": {
+        "type": "scroller",
+        "name": "Logo Scroller",
+        "settings": {
+          "color_scheme": "",
+          "padding_top": 40,
+          "padding_bottom": 40
+        }
       }
     },
     "content_for_index": [
@@ -1996,7 +2006,8 @@
       "1498501481980",
       "1540490257847",
       "1540850879994",
-      "1543867270500"
+      "1543867270500",
+      "scroller_BTzHde"
     ],
     "blocks": {
       "855628211100114053": {
