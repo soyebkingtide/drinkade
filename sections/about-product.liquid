@@ -124,46 +124,7 @@
       </div>
     {% endif %}
 
-    
     <div class="grid grid--uniform d-flex justify-content-center gap-4">
-      {% if section.blocks.size > 0 %}
-        {% for block in section.blocks %}
-          <div class="grid__item medium-up--one-fifth">
-            <div class="about-feature">
-              {% if block.settings.image != blank %}
-                <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title | escape }}">
-              {% endif %}
-              {% if block.settings.title != blank %}
-                <h4>{{ block.settings.title }}</h4>
-              {% endif %}
-              {% if block.settings.desc != blank %}
-                <p>{{ block.settings.desc }}</p>
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      {% else %}
-        <p>No features added yet.</p>
-      {% endif %}
-      {% if section.blocks.size > 0 %}
-        {% for block in section.blocks %}
-          <div class="grid__item medium-up--one-fifth">
-            <div class="about-feature">
-              {% if block.settings.image != blank %}
-                <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title | escape }}">
-              {% endif %}
-              {% if block.settings.title != blank %}
-                <h4>{{ block.settings.title }}</h4>
-              {% endif %}
-              {% if block.settings.desc != blank %}
-                <p>{{ block.settings.desc }}</p>
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      {% else %}
-        <p>No features added yet.</p>
-      {% endif %}
       {% for block in section.blocks %}
         <div class="grid__item medium-up--one-fifth">
           <div class="about-feature">
