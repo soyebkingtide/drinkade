@@ -1,0 +1,130 @@
+{% schema %}
+{
+  "name": "Logo Scroller",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top Padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom Padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo_image",
+          "label": "Logo Image"
+        },
+        {
+          "type": "url",
+          "id": "logo_link",
+          "label": "Link (optional)"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 20,
+  "presets": [
+    {
+      "name": "Logo Scroller",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="logo-scroller section-{{ section.id }}-padding">
+  <div class="logo-slider">
+    {% for block in section.blocks %}
+      <div class="logo-slide">
+        {% if block.settings.logo_link != blank %}
+          <a href="{{ block.settings.logo_link }}">
+            <img src="{{ block.settings.logo_image | img_url: '200x' }}" alt="Logo" loading="lazy">
+          </a>
+        {% else %}
+          <img src="{{ block.settings.logo_image | img_url: '200x' }}" alt="Logo" loading="lazy">
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .logo-slide {
+    text-align: center;
+  }
+
+  .logo-slide img {
+    max-height: 60px;
+    width: auto;
+    margin: 0 auto;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof jQuery === 'undefined') {
+      console.error('jQuery not loaded. Slick slider requires jQuery.');
+      return;
+    }
+
+    if (!$('.logo-slider').hasClass('slick-initialized')) {
+      $('.logo-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 3000,
+        cssEase: 'linear',
+        infinite: true,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2
+            }
+          }
+        ]
+      });
+    }
+  });
+</script>
