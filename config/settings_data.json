@@ -1832,6 +1832,26 @@
           "autoplay": true,
           "autoplay_speed": 5
         }
+      },
+      "scroller_pbj4r6": {
+        "type": "scroller",
+        "blocks": {
+          "logo_JjhjNL": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/logo-bevmo.png",
+              "logo_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "logo_JjhjNL"
+        ],
+        "name": "Logo Scroller",
+        "settings": {
+          "padding_top": 40,
+          "padding_bottom": 40
+        }
       }
     },
     "content_for_index": [
@@ -1851,7 +1871,8 @@
       "1498501481980",
       "1540490257847",
       "1540850879994",
-      "1543867270500"
+      "1543867270500",
+      "scroller_pbj4r6"
     ],
     "blocks": {
       "855628211100114053": {
