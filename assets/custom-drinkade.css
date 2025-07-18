@@ -211,6 +211,18 @@
   text-align: center !important;
 }
 
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
 body {
   background: #fafbfd;
 }
