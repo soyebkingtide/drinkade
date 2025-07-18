@@ -2047,6 +2047,50 @@
           "padding_top": 40,
           "padding_bottom": 40
         }
+      },
+      "review_widget_T8P7ft": {
+        "type": "review-widget",
+        "blocks": {
+          "review_DRGeyK": {
+            "type": "review",
+            "settings": {
+              "feature_image": "shopify://shop_images/Frame_35_1.png",
+              "star_rating": 5,
+              "title": "Amazing Product!",
+              "description": "I loved using this product. Highly recommend it!",
+              "author_name": "John Doe"
+            }
+          },
+          "review_wyjJ4H": {
+            "type": "review",
+            "settings": {
+              "feature_image": "shopify://shop_images/Rectangle_19.png",
+              "star_rating": 5,
+              "title": "Amazing Product!",
+              "description": "I loved using this product. Highly recommend it!",
+              "author_name": "John Doe"
+            }
+          },
+          "review_wq9GiT": {
+            "type": "review",
+            "settings": {
+              "feature_image": "shopify://shop_images/Rectangle_19.png",
+              "star_rating": 5,
+              "title": "Amazing Product!",
+              "description": "I loved using this product. Highly recommend it!",
+              "author_name": "John Doe"
+            }
+          }
+        },
+        "block_order": [
+          "review_DRGeyK",
+          "review_wyjJ4H",
+          "review_wq9GiT"
+        ],
+        "name": "Review Widget",
+        "settings": {
+          "columns_per_row": 3
+        }
       }
     },
     "content_for_index": [
@@ -2070,7 +2114,8 @@
       "1498501481980",
       "1540490257847",
       "1540850879994",
-      "1543867270500"
+      "1543867270500",
+      "review_widget_T8P7ft"
     ],
     "blocks": {
       "855628211100114053": {
