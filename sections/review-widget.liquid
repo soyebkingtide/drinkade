@@ -130,16 +130,7 @@ width: 100%;
   <div class="review-slider" data-columns="{{ section.settings.columns_per_row }}">
     {% for block in section.blocks %}
       <div class="review-item {{ section.settings.text_alignment }}">
-        {% if block.settings.feature_image %}
-          <div class="review-image">
-            <img src="{{ block.settings.feature_image | img_url: '400x400' }}" alt="{{ block.settings.title | escape }}">
-          </div>
-        {% else %}
-          <div class="review-image placeholder">
-            <img src="{{ 'placeholder.png' | asset_url }}" alt="Placeholder Image">
-          </div>
-        {% endif %}
-        {% if block.settings.feature_image %}
+         {% if block.settings.feature_image %}
           <img src="{{ block.settings.feature_image | img_url: '100x100' }}" alt="{{ block.settings.title | escape }}">
         {% endif %}
 
