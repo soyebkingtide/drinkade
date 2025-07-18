@@ -646,6 +646,7 @@
       },
       "1540486219086": {
         "type": "testimonials",
+        "disabled": true,
         "settings": {
           "title": "CUSTOMERS LOVE DRINKADE!",
           "align_text": "center",
@@ -994,6 +995,7 @@
       },
       "1542167063064": {
         "type": "yotpo-carousel",
+        "disabled": true,
         "settings": {}
       },
       "1543867270500": {
