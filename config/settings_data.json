@@ -1900,6 +1900,16 @@
           "padding_top": 40,
           "padding_bottom": 40
         }
+      },
+      "featured_products_ftypt7": {
+        "type": "featured-products",
+        "name": "Featured Products",
+        "settings": {
+          "section_image": "shopify://shop_images/Slice_1_2.png",
+          "section_title": "Featured Products",
+          "padding_top": 40,
+          "padding_bottom": 40
+        }
       }
     },
     "content_for_index": [
@@ -1920,7 +1930,8 @@
       "1498501481980",
       "1540490257847",
       "1540850879994",
-      "1543867270500"
+      "1543867270500",
+      "featured_products_ftypt7"
     ],
     "blocks": {
       "855628211100114053": {
