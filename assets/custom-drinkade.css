@@ -305,4 +305,26 @@
 .yotpo {
   margin-top: 10px !important;
 }
+
+.collection_cart a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20.769px;
+  width: 282px;
+  height: 54px;
+  padding: 20.769px;
+  background: #091278;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize !important;
+  border-radius: 103.846px;
+  font-family: Futura, sans-serif;
+  font-size: 25.432px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5; /* Adjusted for legibility */
+  letter-spacing: -1.272px;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=custom-drinkade.css.map */
