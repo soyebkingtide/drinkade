@@ -1978,6 +1978,18 @@
       },
       "scroller_BTzHde": {
         "type": "scroller",
+        "blocks": {
+          "logo_wFgaVJ": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "logo_wFgaVJ"
+        ],
         "name": "Logo Scroller",
         "settings": {
           "background_color": "#d5dce0",
