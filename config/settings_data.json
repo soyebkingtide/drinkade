@@ -1897,7 +1897,7 @@
         ],
         "name": "Logo Scroller",
         "settings": {
-          "color_scheme": "",
+          "background_color": "#ffffff",
           "padding_top": 40,
           "padding_bottom": 40
         }
@@ -1980,7 +1980,7 @@
         "type": "scroller",
         "name": "Logo Scroller",
         "settings": {
-          "color_scheme": "",
+          "background_color": "#d5dce0",
           "padding_top": 40,
           "padding_bottom": 40
         }
