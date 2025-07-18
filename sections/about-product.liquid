@@ -1,0 +1,131 @@
+{% schema %}
+{
+  "name": "About Product",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "About Our Products"
+    },
+    {
+      "type": "textarea",
+      "id": "section_desc",
+      "label": "Section Description",
+      "default": "We take pride in delivering the best quality and value. Here's a quick overview of our offerings:"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top Padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom Padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Feature Title"
+        },
+        {
+          "type": "textarea",
+          "id": "desc",
+          "label": "Description",
+          "default": "Feature description goes here."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "About Product",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{%- style -%}
+.section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+}
+@media screen and (min-width: 750px) {
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+}
+.about-feature {
+  text-align: center;
+  padding: 15px;
+}
+.about-feature img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.about-feature h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+}
+.about-feature p {
+  font-size: 0.95rem;
+  color: #666;
+}
+{%- endstyle -%}
+
+<div class="about-product section-{{ section.id }}-padding">
+  <div class="page-width">
+    {% if section.settings.section_title != blank %}
+      <h2 class="h2" style="text-align: center;">{{ section.settings.section_title }}</h2>
+    {% endif %}
+    {% if section.settings.section_desc != blank %}
+      <div class="rte" style="text-align: center; max-width: 700px; margin: 0 auto 30px;">
+        {{ section.settings.section_desc }}
+      </div>
+    {% endif %}
+
+    <div class="grid grid--uniform">
+      {% for block in section.blocks %}
+        <div class="grid__item medium-up--one-fifth">
+          <div class="about-feature">
+            {% if block.settings.image != blank %}
+              <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title | escape }}">
+            {% endif %}
+            {% if block.settings.title != blank %}
+              <h4>{{ block.settings.title }}</h4>
+            {% endif %}
+            {% if block.settings.desc != blank %}
+              <p>{{ block.settings.desc }}</p>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
