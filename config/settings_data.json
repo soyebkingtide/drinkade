@@ -1932,6 +1932,48 @@
           "padding_top": 40,
           "padding_bottom": 40
         }
+      },
+      "about_product_LtPLTf": {
+        "type": "about-product",
+        "blocks": {
+          "feature_TVkmm3": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify://shop_images/Group_20.svg",
+              "title": "Drink one 3.4oz bottle.",
+              "desc": ""
+            }
+          },
+          "feature_d8q766": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify://shop_images/Group_20.svg",
+              "title": "Celebrate Responsibly",
+              "desc": ""
+            }
+          },
+          "feature_kwpVyW": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify://shop_images/Group_21_1.svg",
+              "title": "Feel great the next day!",
+              "desc": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature_TVkmm3",
+          "feature_d8q766",
+          "feature_kwpVyW"
+        ],
+        "name": "About Product",
+        "settings": {
+          "section_image": "shopify://shop_images/Mask_group.png",
+          "section_title": "is the go to for rehydration.",
+          "section_desc": "DrinkAde is a healthy drink that helps support the body in neutralizing toxins and rehydration. Whether you're celebrating, working out  or just surviving these tough times, DrinkAde keeps \nyou hydrated so you feel great!",
+          "padding_top": 40,
+          "padding_bottom": 40
+        }
       }
     },
     "content_for_index": [
@@ -1940,6 +1982,7 @@
       "drinkade_slideshow_49Ni7z",
       "scroller_pbj4r6",
       "featured_products_ftypt7",
+      "about_product_LtPLTf",
       "1498163293234",
       "1499790782828",
       "1540850814356",
