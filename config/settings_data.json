@@ -320,9 +320,10 @@
       },
       "1498163293234": {
         "type": "featured-content",
+        "disabled": true,
         "settings": {
           "title": "WHAT IS DRINKADE?",
-          "text": "<p>DrinkAde is a healthy drink that helps support the body in neutralizing toxins and rehydration. Whether you&#x27;re celebrating, working out  or just surviving these tough times, DrinkAde keeps you hydrated so you feel great!</p><p></p><p><strong>LOVE IT OR YOUR MONEY BACK</strong></p>",
+          "text": "<p>DrinkAde is a healthy drink that helps support the body in neutralizing toxins and rehydration. Whether you're celebrating, working out  or just surviving these tough times, DrinkAde keeps you hydrated so you feel great!</p><p></p><p><strong>LOVE IT OR YOUR MONEY BACK</strong></p>",
           "align_text": "center",
           "narrow_column": true,
           "enlarge_text": true,
@@ -431,6 +432,7 @@
           "1499790782828-0",
           "1499790782828-1"
         ],
+        "disabled": true,
         "settings": {
           "title": "",
           "align_text": "center",
@@ -865,6 +867,7 @@
           "1540850814356-1",
           "1540850814356-2"
         ],
+        "disabled": true,
         "settings": {
           "title": "HOW TO USE DRINKADE",
           "align_text": "center",
@@ -2053,6 +2056,7 @@
       "scroller_pbj4r6",
       "featured_products_ftypt7",
       "about_product_LtPLTf",
+      "scroller_BTzHde",
       "1498163293234",
       "1499790782828",
       "1540850814356",
@@ -2066,8 +2070,7 @@
       "1498501481980",
       "1540490257847",
       "1540850879994",
-      "1543867270500",
-      "scroller_BTzHde"
+      "1543867270500"
     ],
     "blocks": {
       "855628211100114053": {
