@@ -2054,7 +2054,7 @@
           "review_DRGeyK": {
             "type": "review",
             "settings": {
-              "feature_image": "shopify://shop_images/Frame_35_1.png",
+              "feature_image": "shopify://shop_images/Rectangle_19.png",
               "star_rating": 5,
               "title": "Amazing Product!",
               "description": "I loved using this product. Highly recommend it!",
@@ -2087,6 +2087,7 @@
           "review_wyjJ4H",
           "review_wq9GiT"
         ],
+        "custom_css": [],
         "name": "Review Widget",
         "settings": {
           "columns_per_row": 3,
