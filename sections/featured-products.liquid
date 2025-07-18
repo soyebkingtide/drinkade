@@ -1,0 +1,149 @@
+{% schema %}
+{
+  "name": "Featured Products",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "section_image",
+      "label": "Section Top Image"
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Featured Products"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top Padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom Padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "bg_image",
+          "label": "Background Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Product Title"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Shop Now Link"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 12,
+  "presets": [
+    {
+      "name": "Featured Products",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .featured-box {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+
+  .featured-box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .featured-box-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .featured-box .button {
+    margin-top: 12px;
+  }
+{%- endstyle -%}
+
+<div class="featured-products section-{{ section.id }}-padding">
+  <div class="page-width">
+
+    {% if section.settings.section_image != blank %}
+      <div class="section-image" style="text-align: center; margin-bottom: 20px;">
+        <img src="{{ section.settings.section_image | img_url: '800x' }}" alt="Section Image" style="max-width: 100%; height: auto;">
+      </div>
+    {% endif %}
+
+    {% if section.settings.section_title != blank %}
+      <h2 class="h2" style="text-align: center; margin-bottom: 30px;">
+        {{ section.settings.section_title }}
+      </h2>
+    {% endif %}
+
+    <div class="grid grid--uniform grid--flush-bottom">
+      {% for block in section.blocks %}
+        <div class="grid__item medium-up--one-half">
+          <div class="featured-box" style="background-image: url('{{ block.settings.bg_image | img_url: '800x' }}');">
+            <div class="featured-box-content">
+              {% if block.settings.title != blank %}
+                <h3 class="h3">{{ block.settings.title }}</h3>
+              {% endif %}
+              {% if block.settings.link != blank %}
+                <a href="{{ block.settings.link }}" class="button">Shop Now</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
