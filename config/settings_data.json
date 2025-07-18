@@ -1941,12 +1941,30 @@
             "settings": {
               "image": "shopify://shop_images/Group_20.svg",
               "title": "Drink one 3.4oz bottle.",
-              "desc": "Feature description goes here."
+              "desc": ""
+            }
+          },
+          "feature_d8q766": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify://shop_images/Group_20.svg",
+              "title": "Celebrate Responsibly",
+              "desc": ""
+            }
+          },
+          "feature_kwpVyW": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify://shop_images/Group_21_1.svg",
+              "title": "Feel great the next day!",
+              "desc": ""
             }
           }
         },
         "block_order": [
-          "feature_TVkmm3"
+          "feature_TVkmm3",
+          "feature_d8q766",
+          "feature_kwpVyW"
         ],
         "name": "About Product",
         "settings": {
