@@ -199,28 +199,19 @@
   padding-bottom: auto !important;
 }
 
-.text-left {
+.text-left,
+.left {
   text-align: left !important;
 }
 
-.text-right {
-  text-align: right !important;
-}
-
-.text-center {
+.text-center,
+.center {
   text-align: center !important;
 }
 
-.left {
-  text-align: left;
-}
-
+.text-right,
 .right {
-  text-align: right;
-}
-
-.center {
-  text-align: center;
+  text-align: right !important;
 }
 
 body {
