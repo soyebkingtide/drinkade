@@ -1911,10 +1911,19 @@
               "title": "BOOST",
               "link": "#"
             }
+          },
+          "feature_ETnkg9": {
+            "type": "feature",
+            "settings": {
+              "bg_image": "shopify://shop_images/Frame_19.png",
+              "title": "PREVENTION",
+              "link": "#"
+            }
           }
         },
         "block_order": [
-          "feature_393e8Y"
+          "feature_393e8Y",
+          "feature_ETnkg9"
         ],
         "name": "Featured Products",
         "settings": {
