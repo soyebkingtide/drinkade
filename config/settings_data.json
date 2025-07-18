@@ -1903,6 +1903,19 @@
       },
       "featured_products_ftypt7": {
         "type": "featured-products",
+        "blocks": {
+          "feature_393e8Y": {
+            "type": "feature",
+            "settings": {
+              "bg_image": "shopify://shop_images/Frame_35_1.png",
+              "title": "BOOST",
+              "link": "#"
+            }
+          }
+        },
+        "block_order": [
+          "feature_393e8Y"
+        ],
         "name": "Featured Products",
         "settings": {
           "section_image": "shopify://shop_images/Slice_1_2.png",
