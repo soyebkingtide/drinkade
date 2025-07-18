@@ -114,13 +114,15 @@
 {%- endstyle -%}
 
 <div class="featured-products section-{{ section.id }}-padding">
-  <div class="page-width">
+ 
 
     {% if section.settings.section_image != blank %}
       <div class="section-image" style="text-align: center; margin-bottom: 20px;">
         <img src="{{ section.settings.section_image | img_url: 'master' }}" alt="Section Image" style="max-width: 100%; height: auto;">
       </div>
     {% endif %}
+
+     <div class="page-width">
 
     {% if section.settings.section_title != blank %}
       <h2 class="h2" style="text-align: center; margin-bottom: 30px;">
