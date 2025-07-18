@@ -1937,8 +1937,9 @@
         "type": "about-product",
         "name": "About Product",
         "settings": {
-          "section_title": "About Our Products",
-          "section_desc": "We take pride in delivering the best quality and value. Here's a quick overview of our offerings:",
+          "section_image": "shopify://shop_images/Mask_group.png",
+          "section_title": "is the go to for rehydration.",
+          "section_desc": "DrinkAde is a healthy drink that helps support the body in neutralizing toxins and rehydration. Whether you're celebrating, working out  or just surviving these tough times, DrinkAde keeps \nyou hydrated so you feel great!",
           "padding_top": 40,
           "padding_bottom": 40
         }
