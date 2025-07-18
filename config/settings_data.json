@@ -1985,10 +1985,58 @@
               "logo_image": "shopify://shop_images/Sugar_Free.png",
               "logo_link": ""
             }
+          },
+          "logo_GLyV6W": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          },
+          "logo_7ti7r3": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          },
+          "logo_QBYiA7": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          },
+          "logo_wEU3L7": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          },
+          "logo_Nje3CK": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          },
+          "logo_ARpfLF": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
           }
         },
         "block_order": [
-          "logo_wFgaVJ"
+          "logo_wFgaVJ",
+          "logo_GLyV6W",
+          "logo_7ti7r3",
+          "logo_QBYiA7",
+          "logo_wEU3L7",
+          "logo_Nje3CK",
+          "logo_ARpfLF"
         ],
         "name": "Logo Scroller",
         "settings": {
