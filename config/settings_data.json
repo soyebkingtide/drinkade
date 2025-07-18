@@ -1932,6 +1932,16 @@
           "padding_top": 40,
           "padding_bottom": 40
         }
+      },
+      "about_product_LtPLTf": {
+        "type": "about-product",
+        "name": "About Product",
+        "settings": {
+          "section_title": "About Our Products",
+          "section_desc": "We take pride in delivering the best quality and value. Here's a quick overview of our offerings:",
+          "padding_top": 40,
+          "padding_bottom": 40
+        }
       }
     },
     "content_for_index": [
@@ -1940,6 +1950,7 @@
       "drinkade_slideshow_49Ni7z",
       "scroller_pbj4r6",
       "featured_products_ftypt7",
+      "about_product_LtPLTf",
       "1498163293234",
       "1499790782828",
       "1540850814356",
