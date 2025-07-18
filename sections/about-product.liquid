@@ -2,6 +2,11 @@
 {
   "name": "About Product",
   "settings": [
+     {
+      "type": "image_picker",
+      "id": "section_image",
+      "label": "Section logo icon"
+    },
     {
       "type": "text",
       "id": "section_title",
@@ -102,7 +107,16 @@
 <div class="about-product section-{{ section.id }}-padding">
   <div class="page-width">
     {% if section.settings.section_title != blank %}
-      <h2 class="h2" style="text-align: center;">{{ section.settings.section_title }}</h2>
+      <h2 class="h2" style="text-align: center;">
+      
+      
+
+       {% if section.settings.section_image != blank %} 
+      <img src="{{ section.settings.section_image | img_url: 'master' }}" alt="Section Image" style="width: auto; height: auto;">
+    
+    {% endif %}
+      
+      {{ section.settings.section_title }}</h2>
     {% endif %}
     {% if section.settings.section_desc != blank %}
       <div class="rte" style="text-align: center; max-width: 700px; margin: 0 auto 30px;">
