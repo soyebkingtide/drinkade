@@ -1935,6 +1935,19 @@
       },
       "about_product_LtPLTf": {
         "type": "about-product",
+        "blocks": {
+          "feature_TVkmm3": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify://shop_images/Group_20.svg",
+              "title": "Drink one 3.4oz bottle.",
+              "desc": "Feature description goes here."
+            }
+          }
+        },
+        "block_order": [
+          "feature_TVkmm3"
+        ],
         "name": "About Product",
         "settings": {
           "section_image": "shopify://shop_images/Mask_group.png",
