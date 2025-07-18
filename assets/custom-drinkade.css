@@ -199,6 +199,10 @@
   padding-bottom: auto !important;
 }
 
+body {
+  background: #fafbfd;
+}
+
 .drinkade-slideshow h1,
 .drinkade-slideshow h2,
 .drinkade-slideshow h3,
