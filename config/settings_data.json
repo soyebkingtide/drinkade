@@ -1903,10 +1903,32 @@
       },
       "featured_products_ftypt7": {
         "type": "featured-products",
+        "blocks": {
+          "feature_393e8Y": {
+            "type": "feature",
+            "settings": {
+              "bg_image": "shopify://shop_images/Frame_35_1.png",
+              "title": "BOOST",
+              "link": "#"
+            }
+          },
+          "feature_ETnkg9": {
+            "type": "feature",
+            "settings": {
+              "bg_image": "shopify://shop_images/Frame_19.png",
+              "title": "PREVENTION",
+              "link": "#"
+            }
+          }
+        },
+        "block_order": [
+          "feature_393e8Y",
+          "feature_ETnkg9"
+        ],
         "name": "Featured Products",
         "settings": {
           "section_image": "shopify://shop_images/Slice_1_2.png",
-          "section_title": "Featured Products",
+          "section_title": "LOVE IT OR YOUR MONEY BACK!",
           "padding_top": 40,
           "padding_bottom": 40
         }
@@ -1917,6 +1939,7 @@
       "1541693547695",
       "drinkade_slideshow_49Ni7z",
       "scroller_pbj4r6",
+      "featured_products_ftypt7",
       "1498163293234",
       "1499790782828",
       "1540850814356",
@@ -1930,8 +1953,7 @@
       "1498501481980",
       "1540490257847",
       "1540850879994",
-      "1543867270500",
-      "featured_products_ftypt7"
+      "1543867270500"
     ],
     "blocks": {
       "855628211100114053": {
