@@ -3,6 +3,12 @@
   "name": "Logo Scroller",
   "settings": [
     {
+  "type": "color_scheme",
+  "id": "color_scheme",
+  "label": "Color Scheme",
+  "default": "background-1"
+},
+    {
       "type": "range",
       "id": "padding_top",
       "label": "Top Padding",
@@ -63,7 +69,7 @@
   }
 {%- endstyle -%}
 
-<div class="logo-scroller section-{{ section.id }}-padding">
+<div class="logo-scroller section-{{ section.id }}-padding section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
   <div class="logo-slider">
     {% for block in section.blocks %}
       <div class="logo-slide">
