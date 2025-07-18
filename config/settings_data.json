@@ -320,9 +320,10 @@
       },
       "1498163293234": {
         "type": "featured-content",
+        "disabled": true,
         "settings": {
           "title": "WHAT IS DRINKADE?",
-          "text": "<p>DrinkAde is a healthy drink that helps support the body in neutralizing toxins and rehydration. Whether you&#x27;re celebrating, working out  or just surviving these tough times, DrinkAde keeps you hydrated so you feel great!</p><p></p><p><strong>LOVE IT OR YOUR MONEY BACK</strong></p>",
+          "text": "<p>DrinkAde is a healthy drink that helps support the body in neutralizing toxins and rehydration. Whether you're celebrating, working out  or just surviving these tough times, DrinkAde keeps you hydrated so you feel great!</p><p></p><p><strong>LOVE IT OR YOUR MONEY BACK</strong></p>",
           "align_text": "center",
           "narrow_column": true,
           "enlarge_text": true,
@@ -431,6 +432,7 @@
           "1499790782828-0",
           "1499790782828-1"
         ],
+        "disabled": true,
         "settings": {
           "title": "",
           "align_text": "center",
@@ -865,6 +867,7 @@
           "1540850814356-1",
           "1540850814356-2"
         ],
+        "disabled": true,
         "settings": {
           "title": "HOW TO USE DRINKADE",
           "align_text": "center",
@@ -1985,10 +1988,58 @@
               "logo_image": "shopify://shop_images/Sugar_Free.png",
               "logo_link": ""
             }
+          },
+          "logo_GLyV6W": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          },
+          "logo_7ti7r3": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          },
+          "logo_QBYiA7": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          },
+          "logo_wEU3L7": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          },
+          "logo_Nje3CK": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
+          },
+          "logo_ARpfLF": {
+            "type": "logo",
+            "settings": {
+              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_link": ""
+            }
           }
         },
         "block_order": [
-          "logo_wFgaVJ"
+          "logo_wFgaVJ",
+          "logo_GLyV6W",
+          "logo_7ti7r3",
+          "logo_QBYiA7",
+          "logo_wEU3L7",
+          "logo_Nje3CK",
+          "logo_ARpfLF"
         ],
         "name": "Logo Scroller",
         "settings": {
@@ -2005,6 +2056,7 @@
       "scroller_pbj4r6",
       "featured_products_ftypt7",
       "about_product_LtPLTf",
+      "scroller_BTzHde",
       "1498163293234",
       "1499790782828",
       "1540850814356",
@@ -2018,8 +2070,7 @@
       "1498501481980",
       "1540490257847",
       "1540850879994",
-      "1543867270500",
-      "scroller_BTzHde"
+      "1543867270500"
     ],
     "blocks": {
       "855628211100114053": {
