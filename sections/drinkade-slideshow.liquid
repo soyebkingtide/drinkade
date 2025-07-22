@@ -171,17 +171,17 @@
 
                 <div class="hero__text-wrap position-absolute absolute-center z-5">
                   <div class="page-width  w-100 mx-50">
-                    <div class="hero__text-content py-20 {{ block.settings.text_align}}">
+                    <div class="hero__text-content py-20 {{ block.settings.text_align}} bebas-neue">
 
                       {% unless block.settings.title == blank %}
-                        <h2 class="h1 hero__title">
+                        <h2 class="h1 hero__title bebas-neue">
                           <div class="animation-cropper"><div class="animation-contents">
                           {{ block.settings.title | newline_to_br }}
                           </div></div>
                         </h2>
                       {% endunless %}
                       {% unless block.settings.subtitle == blank %}
-                        <h3 class="h2 hero__subtitle font-bigger m-0">
+                        <h3 class="h2 hero__subtitle font-bigger m-0 bebas-neue">
                         
                           <div class="animation-cropper"><div class="animation-contents">
                           {{ block.settings.subtitle | newline_to_br }}
