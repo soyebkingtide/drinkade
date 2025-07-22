@@ -1903,7 +1903,7 @@
         ],
         "name": "Logo Scroller",
         "settings": {
-          "background_color": "#ffffff",
+          "background_color": "#fafbfd",
           "padding_top": 40,
           "padding_bottom": 40
         }
