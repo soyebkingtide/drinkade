@@ -1904,8 +1904,8 @@
         "name": "Logo Scroller",
         "settings": {
           "background_color": "#fafbfd",
-          "padding_top": 40,
-          "padding_bottom": 40
+          "padding_top": 32,
+          "padding_bottom": 32
         }
       },
       "featured_products_ftypt7": {
