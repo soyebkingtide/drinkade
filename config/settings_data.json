@@ -1905,7 +1905,7 @@
         "settings": {
           "background_color": "#fafbfd",
           "padding_top": 32,
-          "padding_bottom": 32
+          "padding_bottom": 0
         }
       },
       "featured_products_ftypt7": {
