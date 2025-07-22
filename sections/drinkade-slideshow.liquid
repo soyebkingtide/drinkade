@@ -172,11 +172,6 @@
                 <div class="hero__text-wrap position-absolute absolute-center z-5">
                   <div class="page-width  w-100 mx-50">
                     <div class="hero__text-content py-20 {{ block.settings.text_align}}">
-                      {% if block.settings.image != blank %}
-                        <div class="hero__image-text">
-                          <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title | escape }}">
-                        </div>
-                      {% endif %}
 
                       {% unless block.settings.title == blank %}
                         <h2 class="h1 hero__title">
