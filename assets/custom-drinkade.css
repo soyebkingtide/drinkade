@@ -236,6 +236,24 @@ body {
   letter-spacing: -1px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: Futura, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -2.885px;
+}
+
 .font-bigger {
   font-size: clamp(5rem, 20vw, 40rem) !important; /* responsive */
   line-height: 18vw;
