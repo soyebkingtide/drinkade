@@ -1768,7 +1768,7 @@
           "title": "DrinkAde Boost",
           "home_featured_products": "boost",
           "per_row": 4,
-          "rows": 1,
+          "rows": 4,
           "view_all": true,
           "divider": false
         }
