@@ -13,6 +13,34 @@
       "label": "Section Title",
       "default": "About Our Products"
     },
+
+    {
+  "type": "select",
+  "id": "section_title_size",
+  "label": "Title Heading Size",
+  "default": "h3",
+  "options": [
+    {
+      "value": "h1",
+      "label": "H1"
+    },
+    {
+      "value": "h2",
+      "label": "H2"
+    },
+    {
+      "value": "h3",
+      "label": "H3"
+    },
+    {
+      "value": "h4",
+      "label": "H4"
+    }
+  ]
+}
+
+
+
     {
   "type": "color",
   "id": "section_color",
@@ -113,7 +141,7 @@
 <div class="about-product section-{{ section.id }}-padding">
   <div class="page-width">
     {% if section.settings.section_title != blank %}
-      <h2 class="h2" style="text-align: center; color: {{ section.settings.section_color }}">
+      <h2 class="{{ section.settings.section_title_size }}" style="text-align: center; color: {{ section.settings.section_color }}">
       
       
 
