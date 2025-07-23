@@ -253,6 +253,20 @@ h6,
   font-weight: 700;
 }
 
+h1,
+.h1 {
+  font-size: 7.1rem;
+}
+
+h2,
+.h2 {
+  font-size: 5rem;
+}
+
+.title-color {
+  color: #33515e !important;
+}
+
 .font-bigger {
   font-size: clamp(5rem, 20vw, 40rem) !important; /* responsive */
   line-height: 18vw;
