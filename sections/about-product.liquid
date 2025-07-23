@@ -136,6 +136,11 @@
   font-size: 0.95rem;
   color: #666;
 }
+
+.about-desc{
+  max-width: 1020px;
+
+}
 .about-desc p{
 
 text-align: center;
@@ -163,7 +168,7 @@ letter-spacing: -0.624px;
       {{ section.settings.section_title }}</h2>
     {% endif %}
     {% if section.settings.section_desc != blank %}
-      <div class="rte about-desc">
+      <div class="rte about-desc mx-auto">
       <p> {{ section.settings.section_desc }} </p>
       </div>
     {% endif %}
