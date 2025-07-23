@@ -1754,10 +1754,10 @@
       "1595367178150": {
         "type": "featured-collection",
         "settings": {
-          "title": "DrinkAde Prevention",
+          "title": "",
           "home_featured_products": "prevention",
           "per_row": 4,
-          "rows": 1,
+          "rows": 3,
           "view_all": true,
           "divider": false
         }
