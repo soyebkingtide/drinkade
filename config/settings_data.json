@@ -2049,8 +2049,8 @@
         "name": "Logo Scroller",
         "settings": {
           "background_color": "#d5dce0",
-          "padding_top": 40,
-          "padding_bottom": 40
+          "padding_top": 72,
+          "padding_bottom": 72
         }
       },
       "review_widget_T8P7ft": {
