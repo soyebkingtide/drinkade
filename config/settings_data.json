@@ -1977,9 +1977,11 @@
         "settings": {
           "section_image": "shopify://shop_images/Mask_group.png",
           "section_title": "is the go to for rehydration.",
+          "section_title_size": "h3",
+          "section_color": "#90151c",
           "section_desc": "DrinkAde is a healthy drink that helps support the body in neutralizing toxins and rehydration. Whether you're celebrating, working out  or just surviving these tough times, DrinkAde keeps \nyou hydrated so you feel great!",
-          "padding_top": 40,
-          "padding_bottom": 40
+          "padding_top": 72,
+          "padding_bottom": 72
         }
       },
       "scroller_BTzHde": {
