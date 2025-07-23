@@ -78,20 +78,24 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
+/* 
   .featured-box {
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 600px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     text-align: center;
     padding: 20px;
     position: relative;
-  }
+    max-width: 690px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding-bottom: 36px;
+} */
 
   .featured-box::after {
     content: "";
@@ -133,7 +137,7 @@
     <div class="grid grid--uniform grid--flush-bottom">
       {% for block in section.blocks %}
         <div class="grid__item medium-up--one-half">
-          <div class="featured-box" style="background-image: url('{{ block.settings.bg_image | img_url: '800x' }}');">
+          <div class="featured-box bg-cover bg-center h-600 text-white d-flex align-items-center justify-content-end flex-column text-center p-20 pb-36 position-relative max-w-690 rounded-30 overflow-hidden" style="background-image: url('{{ block.settings.bg_image | img_url: '800x' }}');">
             <div class="featured-box-content">
               {% if block.settings.title != blank %}
                 <h3 class="h3">{{ block.settings.title }}</h3>

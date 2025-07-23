@@ -3,6 +3,66 @@
   justify-content: center;
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.h-600 {
+  height: 600px;
+}
+
+.text-white {
+  color: white;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pb-36 {
+  padding-bottom: 36px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.max-w-690 {
+  max-width: 690px;
+}
+
+.rounded-30 {
+  border-radius: 30px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .gap-0 {
   gap: 0px;
 }
