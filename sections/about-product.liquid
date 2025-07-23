@@ -136,6 +136,9 @@
   font-size: 0.95rem;
   color: #666;
 }
+.about-desc{
+  text-align: center; max-width: 700px; margin: 0 auto 30px; font-size:30px; line-height: 1.5; 
+}
 {%- endstyle -%}
 
 <div class="about-product section-{{ section.id }}-padding">
@@ -153,8 +156,8 @@
       {{ section.settings.section_title }}</h2>
     {% endif %}
     {% if section.settings.section_desc != blank %}
-      <div class="rte" style="text-align: center; max-width: 700px; margin: 0 auto 30px;">
-        {{ section.settings.section_desc }}
+      <div class="rte about-desc">
+      <p> {{ section.settings.section_desc }} </p>
       </div>
     {% endif %}
 
