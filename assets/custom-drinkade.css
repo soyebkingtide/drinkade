@@ -514,4 +514,8 @@ h3,
 .drinkade-slideshow .btn {
   min-width: 282px;
 }
+
+.collection_cart a {
+  margin: 0 !important;
+}
 /*# sourceMappingURL=custom-drinkade.css.map */
