@@ -213,16 +213,25 @@ h6,
 h1,
 .h1 {
   font-size: 7rem;
+
+  line-height: 72.894px; /* 101.25% */
+  letter-spacing: -2.885px;
 }
 
 h2,
 .h2 {
   font-size: 6rem;
+
+  line-height: 50.531px; /* 84.218% */
+  letter-spacing: 0.79px;
 }
 
-h2,
-.h2 {
+h3,
+.h3 {
   font-size: 5rem;
+
+  line-height: 50.531px; /* 101.25% */
+  letter-spacing: -2px;
 }
 
 .title-color {
