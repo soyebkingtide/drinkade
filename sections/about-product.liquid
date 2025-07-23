@@ -14,6 +14,12 @@
       "default": "About Our Products"
     },
     {
+  "type": "color",
+  "id": "section_color",
+  "label": "Title Color",
+  "default": "#90151c"
+},
+    {
       "type": "textarea",
       "id": "section_desc",
       "label": "Section Description",
@@ -107,7 +113,7 @@
 <div class="about-product section-{{ section.id }}-padding">
   <div class="page-width">
     {% if section.settings.section_title != blank %}
-      <h2 class="h2" style="text-align: center;">
+      <h2 class="h2" style="text-align: center; color: {{ settings.title_color }}">
       
       
 
