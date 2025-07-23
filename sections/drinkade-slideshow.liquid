@@ -28,7 +28,7 @@
       {% if section.settings.autoplay %}
         <style>
           .slideshow__slide.slick-active:after {
-            width: 100%;
+            /* width: 100%; */
             transition-delay: 1500ms;
             transition-duration: {{ section.settings.autoplay_speed | times: 1000 | minus: 1500 }}ms;
           }
@@ -91,7 +91,7 @@
 
             <div
               {{ block.shopify_attributes }}
-              class="slideshow__slide slideshow__slide--{{ block.id }} bg-default"
+              class="slideshow__slide slideshow__slide--{{ block.id }} bg-default position-relative page-width"
               data-id="{{ block.id }}">
 
               <style>
@@ -129,7 +129,7 @@
                 {%- assign link_slide = true -%}
               {% endif %}
 
-              <div class="page-width hero__image-wrapper{% unless hero_text %} hero__image-wrapper--no-overlay{% endunless %} position-relative">
+              <div class=" hero__image-wrapper{% unless hero_text %} hero__image-wrapper--no-overlay{% endunless %} position-relative">
                 {% if block.settings.image == blank and section.settings.style == 'arrows' %}
                   <div class="hero__image hero__image--{{ block.id }} hero__image--placeholder">
                     {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
