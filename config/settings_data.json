@@ -2011,28 +2011,21 @@
           "logo_QBYiA7": {
             "type": "logo",
             "settings": {
-              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_image": "shopify://shop_images/Group_31.svg",
               "logo_link": ""
             }
           },
           "logo_wEU3L7": {
             "type": "logo",
             "settings": {
-              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_image": "shopify://shop_images/Group_32.svg",
               "logo_link": ""
             }
           },
           "logo_Nje3CK": {
             "type": "logo",
             "settings": {
-              "logo_image": "shopify://shop_images/Sugar_Free.png",
-              "logo_link": ""
-            }
-          },
-          "logo_ARpfLF": {
-            "type": "logo",
-            "settings": {
-              "logo_image": "shopify://shop_images/Sugar_Free.png",
+              "logo_image": "shopify://shop_images/Group_30.svg",
               "logo_link": ""
             }
           }
@@ -2043,8 +2036,7 @@
           "logo_7ti7r3",
           "logo_QBYiA7",
           "logo_wEU3L7",
-          "logo_Nje3CK",
-          "logo_ARpfLF"
+          "logo_Nje3CK"
         ],
         "name": "Logo Scroller",
         "settings": {
