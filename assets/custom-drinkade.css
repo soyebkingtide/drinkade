@@ -847,6 +847,14 @@ h3,
   font-size: 6px !important;
 }
 
+@media (max-width: 749px) {
+  .hero__image-wrapper {
+    width: 100% !important;
+    max-width: 400% !important;
+    margin: auto;
+  }
+}
+
 .hero__image-wrapper:before,
 .hero__media:before {
   display: none !important;
