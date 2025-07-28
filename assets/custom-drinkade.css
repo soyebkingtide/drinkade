@@ -983,4 +983,12 @@ h3,
   line-height: 32.4px;
   letter-spacing: 0.675px;
 }
+
+@media (max-width: 750px) {
+  .slideshow__slide {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+}
 /*# sourceMappingURL=custom-drinkade.css.map */
