@@ -49,6 +49,42 @@
 {% if section.settings.divider %}</div>{% endif %}
 
 
+
+  
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof jQuery === 'undefined' || typeof jQuery.fn.slick === 'undefined') {
+      console.error('jQuery or Slick Slider is not loaded.');
+      return;
+    }
+
+    const $slider = $('.logo-bar');
+
+    if (!$slider.hasClass('slick-initialized')) {
+      const columns = parseInt($slider.data('columns')) || 3;
+      $slider.slick({
+        slidesToShow: columns,
+        slidesToScroll: 1,
+        arrows: true,
+        infinite: true,
+        dots: false,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: { slidesToShow: Math.min(columns, 2) }
+          },
+          {
+            breakpoint: 768,
+            settings: { slidesToShow: 1 }
+          }
+        ]
+      });
+    }
+  });
+</script>
+
+
+
 {% schema %}
   {
     "name": "Logo list",
