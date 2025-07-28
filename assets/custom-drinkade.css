@@ -1032,10 +1032,10 @@ h3,
   font-weight: normal;
 }
 
-.logo-bar__item {
+.drinkade-logo-bar__item {
   background-color: #fafbfd;
 }
-.logo-bar__item img {
+.drinkade-logo-bar__item img {
   mix-blend-mode: multiply;
   opacity: 1;
 }
