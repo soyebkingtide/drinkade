@@ -12,7 +12,7 @@
 <div class="newsletter-section newsletter-{{ section.id }}{% if section.settings.color_background == settings.color_body_bg %} newsletter-section--with-divider{% endif %}">
   <div class="page-width text-center" style="max-width: 1058px;">
     {% if section.settings.title != blank %}
-      <h2 class="fs-24">{{ section.settings.title | escape }}</h2>
+      <h2 class="fs-24 fw-normal">{{ section.settings.title | escape }}</h2>
     {% endif %}
     {% if section.settings.text != blank %}
       <div class="rte">{{ section.settings.text }}</div>
