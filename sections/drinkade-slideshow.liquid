@@ -129,7 +129,7 @@
                 {%- assign link_slide = true -%}
               {% endif %}
 
-              <div class=" hero__image-wrapper{% unless hero_text %} hero__image-wrapper--no-overlay{% endunless %} position-relative">
+              <div class="hero__image-wrapper{% unless hero_text %} hero__image-wrapper--no-overlay{% endunless %} position-relative">
                 {% if block.settings.image == blank and section.settings.style == 'arrows' %}
                   <div class="hero__image hero__image--{{ block.id }} hero__image--placeholder">
                     {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -145,7 +145,7 @@
 
                   {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
-                  <img class="hero__image hero__image--{{ block.id }} lazyload"
+                  {% comment %} <img class="hero__image hero__image--{{ block.id }} lazyload"
                     src="{{ block.settings.image | img_url: '300x' }}"
                     data-src="{{ img_url }}"
                     data-aspectratio="{{ block.settings.image.aspect_ratio }}"
@@ -156,7 +156,40 @@
                     <img class="hero__image hero__image--{{ block.id }}"
                       src="{{ block.settings.image | img_url: '1400x' }}"
                       alt="{{ block.settings.image.alt | escape }}">
-                  </noscript>
+                  </noscript> {% endcomment %}
+
+
+
+                  <picture>
+  <!-- Mobile Image -->
+  <source 
+    media="(max-width: 767px)" 
+    srcset="{{ block.settings.mob-image | img_url: '800x' }}" />
+
+  <!-- Default / Desktop Image -->
+  <img 
+    class="hero__image hero__image--{{ block.id }} lazyload"
+    src="{{ block.settings.image | img_url: '300x' }}"
+    data-src="{{ block.settings.image | img_url: '1400x' }}"
+    data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+    data-sizes="auto"
+    data-parent-fit="cover"
+    alt="{{ block.settings.image.alt | escape }}">
+</picture>
+
+
+<noscript>
+  <picture>
+    <source 
+      media="(max-width: 767px)" 
+      srcset="{{ block.settings.mob-image | img_url: '800x' }}" />
+    <img 
+      class="hero__image hero__image--{{ block.id }}"
+      src="{{ block.settings.image | img_url: '1400x' }}"
+      alt="{{ block.settings.image.alt | escape }}">
+  </picture>
+</noscript>
+
                 {% else %}
                   {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
                 {% endif %}
@@ -479,6 +512,15 @@
             "id": "image",
             "label": "Image"
           },
+
+
+            {
+            "type": "image_picker",
+            "id": "mob-image",
+            "label": "Mob Image"
+          },
+
+
           {
             "type": "select",
             "id": "focal_point",
