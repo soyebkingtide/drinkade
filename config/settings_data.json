@@ -1004,6 +1004,7 @@
         "settings": {
           "title": "JOIN OUR MAILING LIST TO RECEIVE DISCOUNTS & SPECIAL OFFERS",
           "text": "<p>(1-2 emails per month – opt out at any time!)</p>",
+          "desc": "<p>Description Text</p>",
           "color_background": "#cc1a43",
           "color_text": "#ffffff"
         }
@@ -1574,6 +1575,7 @@
         "settings": {
           "title": "JOIN OUR MAILING LIST TO RECEIVE DISCOUNTS & SPECIAL OFFERS",
           "text": "<p>(1-2 emails per month – opt out at any time!)</p>",
+          "desc": "<p>NO PURCHASE NECESSARY. Ends 8/31/25. Must be: i) a legal US resident of the 50 US or DC and age of majority or ii) a  legal resident of Canada (excl. Quebec) and age of majority at time of entry. Subject to Official Rules available at sharedsweeps.com/rules. Void where prohibited.  Sponsored By Shared Sweeps.<br/><br/></p>",
           "color_background": "#8a2a2b",
           "color_text": "#ffffff"
         }
