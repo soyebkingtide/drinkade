@@ -12,11 +12,18 @@
 <div class="newsletter-section newsletter-{{ section.id }}{% if section.settings.color_background == settings.color_body_bg %} newsletter-section--with-divider{% endif %}">
   <div class="page-width text-center">
     {% if section.settings.title != blank %}
-      <h2 class="h3">{{ section.settings.title | escape }}</h2>
+      <h2 class="fs-24">{{ section.settings.title | escape }}</h2>
     {% endif %}
     {% if section.settings.text != blank %}
       <div class="rte">{{ section.settings.text }}</div>
     {% endif %}
+
+
+    {% if section.settings.desc != blank %}
+      <div class="rte fs-12">{{ section.settings.desc }}</div>
+    {% endif %}
+
+
 
     {% include 'newsletter-form', section_id: section.id, snippet_context: 'section' %}
   </div>
@@ -42,6 +49,17 @@
         "label": "Subheading",
         "default": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>"
       },
+
+       {
+        "type": "richtext",
+        "id": "desc",
+        "label": "Description",
+        "default": "<p>Description Text</p>"
+      },
+
+      
+
+
       {
         "type": "color",
         "id": "color_background",

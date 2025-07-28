@@ -329,6 +329,13 @@ h3,
   letter-spacing: -2px;
 }
 
+// Font-size utility classes: .fs-1 to .fs-100 (1px to 100px)
+@for $i from 1 through 100 {
+  .fs-#{$i} {
+    font-size: #{$i}px !important;
+  }
+}
+
 .title-color {
   color: #33515e !important;
 }
