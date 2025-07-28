@@ -945,6 +945,11 @@ h3,
 .drinkade-slideshow .btn {
   min-width: 282px;
 }
+@media (max-width: 1370px) {
+  .drinkade-slideshow .btn {
+    min-width: 220px;
+  }
+}
 
 .collection_cart a {
   margin: 0 !important;

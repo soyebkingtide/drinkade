@@ -521,6 +521,9 @@ h3,
 
   .btn {
     min-width: 282px;
+    @media (max-width: 1370px) {
+      min-width: 220px;
+    }
   }
 }
 
