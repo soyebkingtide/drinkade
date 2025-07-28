@@ -340,6 +340,13 @@ h2,
   letter-spacing: 0.79px;
 }
 
+.h2 {
+  @media (max-width: 749px) {
+    font-size: 40px;
+    line-height: 40.894px;
+  }
+}
+
 h3,
 .h3 {
   font-size: 50px;
