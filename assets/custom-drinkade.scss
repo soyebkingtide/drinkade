@@ -428,6 +428,11 @@ h3,
   @media (max-width: 749px) {
     max-width: 300px !important;
   }
+  .align-items-center {
+    @media (max-width: 749px) {
+      align-items: flex-start !important;
+    }
+  }
 }
 
 .hero__image-wrapper:before,

@@ -860,6 +860,11 @@ h3,
     max-width: 300px !important;
   }
 }
+@media (max-width: 749px) {
+  .hero__text-wrap .align-items-center {
+    align-items: flex-start !important;
+  }
+}
 
 .hero__image-wrapper:before,
 .hero__media:before {
