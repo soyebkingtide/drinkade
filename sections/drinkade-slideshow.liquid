@@ -168,7 +168,7 @@
 
   <!-- Default / Desktop Image -->
   <img 
-    class="hero__image hero__image--{{ block.id }} lazyload"
+    class="hero__image hero__image--{{ block.id }} lazyload img-fluid"
     src="{{ block.settings.image | img_url: '300x' }}"
     data-src="{{ block.settings.image | img_url: '1400x' }}"
     data-aspectratio="{{ block.settings.image.aspect_ratio }}"
@@ -184,7 +184,7 @@
       media="(max-width: 767px)" 
       srcset="{{ block.settings.mob-image | img_url: '800x' }}" />
     <img 
-      class="hero__image hero__image--{{ block.id }}"
+      class="hero__image hero__image--{{ block.id }} img-fluid"
       src="{{ block.settings.image | img_url: '1400x' }}"
       alt="{{ block.settings.image.alt | escape }}">
   </picture>

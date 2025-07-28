@@ -8,6 +8,11 @@
   background-size: cover;
 }
 
+.img-fluid {
+  max-width: 100% !important;
+  height: auto;
+}
+
 .bg-center {
   background-position: center;
 }
