@@ -19,13 +19,18 @@
     {% endif %}
 
 
+
+
+    {% include 'newsletter-form', section_id: section.id, snippet_context: 'section' %}
+
+
+    
     {% if section.settings.desc != blank %}
       <div class="rte fs-12">{{ section.settings.desc }}</div>
     {% endif %}
 
 
-
-    {% include 'newsletter-form', section_id: section.id, snippet_context: 'section' %}
+    
   </div>
 </div>
 
