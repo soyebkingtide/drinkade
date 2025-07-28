@@ -914,6 +914,11 @@ h3,
   letter-spacing: -1.272px;
   margin-top: 20px;
 }
+@media (max-width: 1370px) {
+  .collection_cart a {
+    min-width: 220px;
+  }
+}
 
 .newsletter-newsletter,
 .site-footer {
