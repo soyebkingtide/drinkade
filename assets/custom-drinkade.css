@@ -374,9 +374,9 @@ h1,
   line-height: 72.894px;
   letter-spacing: -2.885px;
 }
-
 @media (max-width: 749px) {
-  .h1 {
+  h1,
+.h1 {
     font-size: 45px;
     line-height: 45.894px;
   }
@@ -388,9 +388,9 @@ h2,
   line-height: 50.531px;
   letter-spacing: 0.79px;
 }
-
 @media (max-width: 749px) {
-  .h2 {
+  h2,
+.h2 {
     font-size: 40px;
     line-height: 40.894px;
   }
