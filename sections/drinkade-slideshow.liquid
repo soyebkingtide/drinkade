@@ -107,6 +107,16 @@
 
 
               }
+
+
+
+              @media only screen and (min-width: 1370px) {
+                .slideshow__slide--{{ block.id }} .hero__title {
+                  font-size: 55px;
+                }
+              }
+
+
               .slideshow__slide--{{ block.id }} .hero__subtitle {
                 font-size: {{ block.settings.subtitle_size | times: 0.5 }}px;
               }

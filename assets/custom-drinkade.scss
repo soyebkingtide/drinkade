@@ -355,6 +355,10 @@ h3,
 .font-bigger {
   font-size: 200px !important;
   line-height: 200px;
+  @media (max-width: 1370px) {
+    font-size: 100px !important;
+    line-height: 100px;
+  }
 }
 
 .hero__paragraph {
@@ -367,6 +371,11 @@ h3,
   strong {
     font-size: 110%;
     font-weight: bold;
+  }
+
+  @media (max-width: 1370px) {
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 

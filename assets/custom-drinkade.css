@@ -785,6 +785,12 @@ h3,
   font-size: 200px !important;
   line-height: 200px;
 }
+@media (max-width: 1370px) {
+  .font-bigger {
+    font-size: 100px !important;
+    line-height: 100px;
+  }
+}
 
 .hero__paragraph {
   font-family: "DM Sans", sans-serif;
@@ -796,6 +802,12 @@ h3,
 .hero__paragraph strong {
   font-size: 110%;
   font-weight: bold;
+}
+@media (max-width: 1370px) {
+  .hero__paragraph {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .position-relative {
