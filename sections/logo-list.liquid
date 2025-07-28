@@ -8,6 +8,19 @@
 #shopify-section-1543867991728{
   margin-top: 0!important;
 }
+
+.logo-bar__item {
+  text-align: center;
+  padding: 10px;
+}
+.logo-bar__image {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+
+
 </style>
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
@@ -20,7 +33,7 @@
   {% endif %}
 
   {% if section.blocks.size > 0 %}
-    <div class="logo-bar logo-bar--{{ section.id }}">
+    <div class="logo-bar logo-bar--{{ section.id }} slider-logo-bar" data-columns="{{ section.settings.columns_per_row }}">
       {% for block in section.blocks %}
         <div class="logo-bar__item" {{ block.shopify_attributes }}>
           {% if block.settings.link != blank %}
@@ -29,11 +42,11 @@
           {% if block.settings.image != blank %}
             {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             <img class="logo-bar__image lazyload"
-                data-src="{{ img_url }}"
-                data-widths="[180, 360, 540, 720]"
-                data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-                data-sizes="auto"
-                alt="{{ block.settings.image.alt }}">
+                 data-src="{{ img_url }}"
+                 data-widths="[180, 360, 540, 720]"
+                 data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                 data-sizes="auto"
+                 alt="{{ block.settings.image.alt | escape }}">
           {% else %}
             {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
           {% endif %}
@@ -46,28 +59,30 @@
   {% endif %}
 </div>
 
+
 {% if section.settings.divider %}</div>{% endif %}
 
 
 
-  
-<script>
+  <script>
   document.addEventListener('DOMContentLoaded', function () {
     if (typeof jQuery === 'undefined' || typeof jQuery.fn.slick === 'undefined') {
       console.error('jQuery or Slick Slider is not loaded.');
       return;
     }
 
-    const $slider = $('.logo-bar');
+    const $slider = $('.slider-logo-bar');
 
     if (!$slider.hasClass('slick-initialized')) {
-      const columns = parseInt($slider.data('columns')) || 3;
+      const columns = parseInt($slider.data('columns')) || 4;
       $slider.slick({
         slidesToShow: columns,
         slidesToScroll: 1,
         arrows: true,
         infinite: true,
         dots: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
         responsive: [
           {
             breakpoint: 1024,
@@ -82,6 +97,7 @@
     }
   });
 </script>
+
 
 
 
