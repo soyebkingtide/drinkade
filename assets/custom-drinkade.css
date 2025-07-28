@@ -807,6 +807,7 @@ h3,
   .hero__paragraph {
     font-size: 20px;
     line-height: 20px;
+    margin: 0 auto auto;
   }
 }
 
