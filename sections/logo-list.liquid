@@ -9,7 +9,7 @@
   margin-top: 0!important;
 }
 
-.logo-bar__item {
+.drinkade-logo-bar__item {
   text-align: center;
   padding: 10px;
 }
@@ -32,9 +32,9 @@
   {% endif %}
 
   {% if section.blocks.size > 0 %}
-    <div class="logo-bar logo-bar--{{ section.id }} slider-logo-bar" data-columns="{{ section.settings.columns_per_row }}">
+    <div class="logo-bar-container logo-bar--{{ section.id }} slider-logo-bar" data-columns="{{ section.settings.columns_per_row }}">
       {% for block in section.blocks %}
-        <div class="logo-bar__item" {{ block.shopify_attributes }}>
+        <div class="drinkade-logo-bar__item" {{ block.shopify_attributes }}>
           {% if block.settings.link != blank %}
             <a href="{{ block.settings.link }}" class="logo-bar__link">
           {% endif %}
