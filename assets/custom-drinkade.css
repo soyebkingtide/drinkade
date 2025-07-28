@@ -40,6 +40,12 @@
   align-items: center;
 }
 
+@media (max-width: 749px) {
+  .mob-flex-row {
+    flex-direction: row !important;
+  }
+}
+
 .align-items-end {
   align-items: flex-end;
 }
