@@ -789,6 +789,7 @@ h3,
 .hero__paragraph {
   font-family: "DM Sans", sans-serif;
   font-size: 32px;
+  line-height: 32px;
   max-width: 650px;
   margin: -32px auto auto;
 }
