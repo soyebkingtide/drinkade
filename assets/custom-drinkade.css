@@ -863,6 +863,7 @@ h3,
 @media (max-width: 749px) {
   .hero__text-wrap .align-items-center {
     align-items: flex-start !important;
+    height: 100% !important;
   }
 }
 

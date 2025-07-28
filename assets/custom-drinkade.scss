@@ -431,6 +431,7 @@ h3,
   .align-items-center {
     @media (max-width: 749px) {
       align-items: flex-start !important;
+      height: 100% !important;
     }
   }
 }
