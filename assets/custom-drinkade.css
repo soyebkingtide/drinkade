@@ -359,6 +359,13 @@ h1,
   letter-spacing: -2.885px;
 }
 
+@media (max-width: 749px) {
+  .h1 {
+    font-size: 45px;
+    line-height: 45.894px;
+  }
+}
+
 h2,
 .h2 {
   font-size: 60px;
