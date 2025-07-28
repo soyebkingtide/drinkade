@@ -545,6 +545,9 @@ h3,
   @media (max-width: 1370px) {
     min-width: 220px;
   }
+  @media screen and (max-width: 749px) {
+    width: 200px !important;
+  }
 }
 
 .newsletter-newsletter,

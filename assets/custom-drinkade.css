@@ -145,7 +145,7 @@
 }
 @media (max-width: 749px) {
   .gap-85 {
-    gap: 435px;
+    gap: 35px;
   }
 }
 
@@ -976,6 +976,11 @@ h3,
 @media (max-width: 1370px) {
   .collection_cart a {
     min-width: 220px;
+  }
+}
+@media screen and (max-width: 749px) {
+  .collection_cart a {
+    width: 200px !important;
   }
 }
 
