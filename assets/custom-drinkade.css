@@ -855,6 +855,12 @@ h3,
   }
 }
 
+@media (max-width: 749px) {
+  .hero__text-wrap {
+    max-width: 300px !important;
+  }
+}
+
 .hero__image-wrapper:before,
 .hero__media:before {
   display: none !important;

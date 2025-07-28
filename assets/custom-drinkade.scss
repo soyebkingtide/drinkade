@@ -423,6 +423,13 @@ h3,
     margin: auto;
   }
 }
+
+.hero__text-wrap {
+  @media (max-width: 749px) {
+    max-width: 300px !important;
+  }
+}
+
 .hero__image-wrapper:before,
 .hero__media:before {
   display: none !important;
