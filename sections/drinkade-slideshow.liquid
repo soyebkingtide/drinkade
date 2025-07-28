@@ -137,6 +137,13 @@
                   font-size: {{ block.settings.subtitle_size }}px;
                 }
               }
+
+               @media only screen and (max-width: 950px) {
+                .slideshow__slide--{{ block.id }} .hero__title {
+                   font-size: 36px;
+                }
+               
+              }
               </style>
 
               {%- assign hero_text = false -%}
@@ -182,7 +189,7 @@
                   <picture>
   <!-- Mobile Image -->
   <source 
-    media="(max-width: 767px)" 
+    media="(max-width: 750px)" 
     srcset="{{ block.settings.mob-image | img_url: '800x' }}" />
 
   <!-- Default / Desktop Image -->
@@ -200,7 +207,7 @@
 <noscript>
   <picture>
     <source 
-      media="(max-width: 767px)" 
+      media="(max-width: 750px)" 
       srcset="{{ block.settings.mob-image | img_url: '800x' }}" />
     <img 
       class="hero__image hero__image--{{ block.id }} img-fluid"
