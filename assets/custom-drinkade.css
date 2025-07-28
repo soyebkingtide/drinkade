@@ -909,6 +909,11 @@ h3,
 .mb-32 {
   margin-bottom: 32px !important;
 }
+@media (max-width: 749px) {
+  .mb-32 {
+    margin-bottom: 6px;
+  }
+}
 
 .yotpo {
   margin-top: 10px !important;

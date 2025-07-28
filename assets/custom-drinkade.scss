@@ -478,6 +478,9 @@ h3,
 
 .mb-32 {
   margin-bottom: 32px !important;
+  @media (max-width: 749px) {
+    margin-bottom: 6px;
+  }
 }
 
 .yotpo {
