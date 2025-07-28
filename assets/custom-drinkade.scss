@@ -131,6 +131,9 @@
 
 .gap-85 {
   gap: 85px;
+  @media (max-width: 749px) {
+    gap: 50px;
+  }
 }
 
 .d-flex {
