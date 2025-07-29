@@ -2066,9 +2066,9 @@
             "settings": {
               "feature_image": "shopify://shop_images/Rectangle_19_2.png",
               "star_rating": 5,
-              "title": "Amazing Product!",
-              "description": "I loved using this product. Highly recommend it!",
-              "author_name": "John Doe"
+              "title": "Very good product",
+              "description": "The good thing about this is that you can\ndrink it any time and it’s still effective.",
+              "author_name": "Anahita E."
             }
           },
           "review_wq9GiT": {
@@ -2076,9 +2076,9 @@
             "settings": {
               "feature_image": "shopify://shop_images/Rectangle_20.png",
               "star_rating": 5,
-              "title": "Amazing Product!",
-              "description": "I loved using this product. Highly recommend it!",
-              "author_name": "John Doe"
+              "title": "Very good product",
+              "description": "The good thing about this is that you can\ndrink it any time and it’s still effective.",
+              "author_name": "Anahita E."
             }
           }
         },
